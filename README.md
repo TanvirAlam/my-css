@@ -14,5 +14,6 @@
 ![images/Peek_2021-12-01_20-32.gif](images/Peek_2021-12-01_20-32.gif)
 
 6. Animated Circle Text Logo Effects:
+![images/Peek_2021-12-01_23-53.gif](images/Peek_2021-12-01_23-53.gif)
 
 7. Shooting Star Animation
