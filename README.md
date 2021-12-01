@@ -6,3 +6,9 @@
 
 3. Footer animated wave:
 ![images/Peek_2021-12-01_02-50.gif](images/Peek_2021-12-01_02-50.gif)
+
+4. Custom Checkbox with happy face:
+![images/Peek_2021-12-01_15-14.gif](images/Peek_2021-12-01_15-14.gif)
+5. Custom animated spinner:
+
+6. Animated Circle Text Logo Effects:
