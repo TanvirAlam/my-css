@@ -9,6 +9,10 @@
 
 4. Custom Checkbox with happy face:
 ![images/Peek_2021-12-01_15-14.gif](images/Peek_2021-12-01_15-14.gif)
+
 5. Custom animated spinner:
+![images/Peek_2021-12-01_20-32.gif](images/Peek_2021-12-01_20-32.gif)
 
 6. Animated Circle Text Logo Effects:
+
+7. Shooting Star Animation
