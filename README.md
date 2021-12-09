@@ -1,6 +1,6 @@
 ## This is my show case of all my CSS skills: **_CAUTION_**:: THIS IS ONLY CSS
 
-8. Animated Neon light button hover:
+8. Animated Neon light button hover:<br>
    ![images/Peek_2021-12-09_19-33.gif](images/Peek_2021-12-09_19-33.gif)
 
 9. Animated Earth and Mars:
