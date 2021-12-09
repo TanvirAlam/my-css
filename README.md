@@ -1,4 +1,9 @@
-## This is my show case of all my CSS skills: **_CAUTION_**:: THIS IS ONLY CSS
+## This is my collection of ideas:
+
+**_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
+
+- Animated card hover effect:<br>
+  ![images/Peek_2021-12-09_20-37.gif](images/Peek_2021-12-09_20-37.gif)
 
 - Animated Neon light button hover:<br>
   ![images/Peek_2021-12-09_19-33.gif](images/Peek_2021-12-09_19-33.gif)

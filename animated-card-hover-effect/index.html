@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maxime quod eos voluptate quaerat qui error at animi hic adipisci?</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maxime quod eos voluptate quaerat qui error at animi hic adipisci?</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maxime quod eos voluptate quaerat qui error at animi hic adipisci?</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+
+</body>
+</html>
