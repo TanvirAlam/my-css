@@ -37,16 +37,16 @@ body {
 }
 
 .container:hover img:nth-child(3) {
-  transform: translate(120px, -120px);
+  transform: translate(120px, -120px) skew(20deg);
   opacity: .8;
 }
 
 .container:hover img:nth-child(2) {
-  transform: translate(80px, -80px);
+  transform: translate(80px, -80px) skew(-20deg);
   opacity: .5;
 }
 
 .container:hover img:nth-child(1) {
-  transform: translate(40px, -40px);
+  transform: translate(40px, -40px) skew(50deg);
   opacity: .2;
 }
