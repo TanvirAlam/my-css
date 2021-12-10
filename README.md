@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
 
+- Animated navigation menu:<br>
+  ![images/Peek_2021-12-10_01-07.gif](images/Peek_2021-12-10_01-07.gif)
+
 - Animated text effect:<br>
   ![images/Peek_2021-12-09_21-13.gif](images/Peek_2021-12-09_21-13.gif)
 
