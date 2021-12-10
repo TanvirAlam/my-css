@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
 
+- Animated border:<br>
+  ![images/Peek_2021-12-10_01-41.gif](images/Peek_2021-12-10_01-41.gif)
+
 - Animated navigation menu:<br>
   ![images/Peek_2021-12-10_01-07.gif](images/Peek_2021-12-10_01-07.gif)
 

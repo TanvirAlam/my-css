@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0e1538;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 140%;
+  background: linear-gradient(#00ccff, #d400d4);
+  animation: animate 4s linear infinite;
+}
+
+.box::after {
+  content: '';
+  position: absolute;
+  background: #0e1538;
+  inset: 8px;
+  border-radius: 16px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.box h2 {
+  position: relative;
+  color: #fff;
+  font-size: 10em;
+  z-index: 10;
+}
