@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
 
+- Animated image hover effect:<br>
+  ![images/Peek_2021-12-10_14-37.gif](images/Peek_2021-12-10_14-37.gif)
+
 - Animated border:<br>
   ![images/Peek_2021-12-10_01-45.gif](images/Peek_2021-12-10_01-45.gif)
 
