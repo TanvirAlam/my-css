@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
 
+- Animated Neumorphism slider effect<br>
+  ![images/Peek_2021-12-11_17-28.gif](images/Peek_2021-12-11_17-28.gif)
+
 - Animated smoke text reveal effect:<br>
   ![images/Peek_2021-12-10_15-28.gif](images/Peek_2021-12-10_15-28.gif)
 
