@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
 
+- Animated Matrix effect<br>
+  ![images/Peek_2021-12-12_14-48.gif](images/Peek_2021-12-12_14-48.gif)
+
 - Animated Neumorphism slider effect<br>
   ![images/Peek_2021-12-11_17-28.gif](images/Peek_2021-12-11_17-28.gif)
 
