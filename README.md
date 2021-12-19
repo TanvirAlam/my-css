@@ -2,7 +2,10 @@
 
 **_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
 
-- Anumated Working Analog Clock<br>
+- Frost Glass effect<br>
+  ![images/Peek_2021-12-19_21-32.gif](images/Peek_2021-12-19_21-32.gif)
+
+- Animated Working Analog Clock<br>
   ![images/Peek_2021-12-19_21-05.gif](images/Peek_2021-12-19_21-05.gif)
 
 - Animated Matrix effect<br>
