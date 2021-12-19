@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <span style="color: red">**THIS IS ONLY CSS**</span>
 
+- Animated Loading climb effect<br>
+  ![images/Peek_2021-12-19_22-19.gif](images/Peek_2021-12-19_22-19.gif)
+
 - Frost Glass effect<br>
   ![images/Peek_2021-12-19_21-32.gif](images/Peek_2021-12-19_21-32.gif)
 
