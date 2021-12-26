@@ -3,7 +3,7 @@
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
 - Anime JS Background Animation Effects<br>
-  ![images/Peek_2021-12-26_03-35.gif](images`/Peek_2021-12-26_03-35.gif)
+  ![images/Peek_2021-12-26_03-35.gif](images/Peek_2021-12-26_03-35.gif)
 
   - `https://animejs.com/`
 
