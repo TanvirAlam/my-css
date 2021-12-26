@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- Animated text distortion effect<br>
+  ![images/Peek_2021-12-27_00-39.gif](images/Peek_2021-12-27_00-39.gif)
+
 - Animated fontawesome icon effect<br>
   ![images/Peek_2021-12-26_21-50.gif](images/Peek_2021-12-26_21-50.gif)
 
