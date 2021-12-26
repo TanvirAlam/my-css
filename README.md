@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- Glassmorphism Product Card effect<br>
+  ![images/Peek_2021-12-26_02-42.gif](images/Peek_2021-12-26_02-42.gif)
+
 - 3D text effect<br>
   ![images/Peek_2021-12-22_18-46.gif](images/Peek_2021-12-22_18-46.gif)
 

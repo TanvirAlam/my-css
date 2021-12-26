@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #232323;
+  overflow: hidden;
+  padding: 100px 20px;
+  box-sizing: border-box;
+}
+
+section::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #546522;
+  clip-path: circle(65% at 100% -20%);
+}
+
+section::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ce5f15;
+  clip-path: circle(35% at 0% 100%);
+}
+
+.container {
+  position: relative;
+  z-index: 10; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+
+.container .card .imgBx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.container .card:hover .imgBx {
+  transform: translateY(-100px)
+}
+
+.container .card .imgBx img {
+  max-width: 100%;
+  margin: 0 0 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.container .card:hover .imgBx img {
+  transform: translate(-20px, -40px) rotate(-25deg) scale(1.4);
+}
+
+.container .card .imgBx h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.container .card .content {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container .card:hover .content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50px);
+}
+
+.container .card .content .color,
+.container .card .content .size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+}
+
+.container .card .content .color h3,
+.container .card .content .size h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.container .card .content .size span {
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 24px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-weight: 500;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container .card .content .size span:hover {
+  background: #546522;
+}
+
+.container .card .content .color span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.container .card .content .color span:nth-child(2) {
+  background: #C8FD4B;
+}
+
+.container .card .content .color span:nth-child(3) {
+  background: #FC5A47;
+}
+
+.container .card .content .color span:nth-child(4) {
+  background: #009BA5;
+}
+
+.container .card .content a {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  padding: 12px 30px;
+  background: #fff;
+  border-radius: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #111;
+  text-decoration: none;
+  text-transform: uppercase;
+}
