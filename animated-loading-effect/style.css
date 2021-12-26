@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #001300;
+  animation: changeColor 5s linear infinite;
+}
+
+section h2 {
+  color: #00ff00;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+
+@keyframes changeColor {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+section .loader {
+  position: relative;
+  display: flex;
+}
+
+section .loader .dot {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #00ff00;
+  box-shadow: 0 0 10px #00ff00,
+              0 0 20px #00ff00,
+              0 0 40px #00ff00,
+              0 0 60px #00ff00,
+              0 0 80px #00ff00,
+              0 0 110px #00ff00,
+              0 0 120px #00ff00,
+              0 0 140px #00ff00;
+  margin: 20px 10px;
+  transform: scale(0.1);
+  border-radius: 50%;
+  animation: animateDot 2s linear infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animateDot {
+  0%{
+    transform: scale(0.1);
+  }
+  10%{
+    transform: scale(1);
+  }
+  50%,
+  100% {
+    transform: scale(0.1);
+  }
+}
+
+section .loader:last-child .dot {
+  animation-delay: calc(-0.1s * var(--i));
+}
