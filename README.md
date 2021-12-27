@@ -5,6 +5,8 @@
 - Animated abstract background effect<br>
   ![images/Peek_2021-12-27_11-04.gif](images/Peek_2021-12-27_11-04.gif)
 
+  - `https://animejs.com/`
+
 - Animated scratch off reveal content effect<br>
   ![images/Peek_2021-12-27_01-42.gif](images/Peek_2021-12-27_01-42.gif)
 
