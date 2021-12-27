@@ -2,6 +2,11 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- Water drops effect<br>
+  ![images/Peek_2021-12-27_11-59.gif](images/Peek_2021-12-27_11-59.gif)
+
+  - `https://9elements.github.io/fancy-border-radius/`
+
 - Animated abstract background effect<br>
   ![images/Peek_2021-12-27_11-04.gif](images/Peek_2021-12-27_11-04.gif)
 

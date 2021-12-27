@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #edeeed;
+}
+
+.drops {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+              15px 25px 10px rgba(0, 0, 0, 0.1),
+              15px 20px 20px rgba(0, 0, 0, 0.05),
+              inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+}
+
+.drop::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 30% 70% 70% 30% / 41% 39% 61% 59%;
+}
+
+.drop::after {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 57% 43% 39% 61% / 41% 35% 65% 59%;
+}
+
+.drop:nth-child(2) {
+  transform: scale(0.5) translate(-200px, 180px);
+  border-radius: 27% 73% 69% 31% / 67% 67% 33% 33%;
+}
+
+.drop:nth-child(3) {
+  transform: scale(0.5) translate(-288px, 10px);
+  border-radius: 68% 32% 69% 31% / 23% 17% 83% 77%;
+}
+
+.drop:nth-child(4) {
+  transform: scale(0.35) translate(120px, -350px);
+  border-radius: 38% 62% 69% 31% / 49% 63% 37% 51%;
+}
+
