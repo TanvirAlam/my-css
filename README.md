@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- Animated circle with fake shadow effect<br>
+  ![images/Peek_2021-12-31_13-55.gif](images/Peek_2021-12-31_13-55.gif)
+
 - Particles Effect on Mousemove<br>
   ![images/Peek_2021-12-28_10-59.gif](images/Peek_2021-12-28_10-59.gif)
 
