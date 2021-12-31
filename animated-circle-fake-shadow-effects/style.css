@@ -69,10 +69,28 @@ body {
 
 .circle-container:nth-child(2) .circle {
   animation-delay: -0.3s;
+  background: #f8fc01;
+  box-shadow: 0 0 10px #f8fc01,
+              0 0 20px #00ff00,
+              0 0 40px #00ff00,
+              0 0 60px #00ff00,
+              0 0 80px #00ff00,
+              0 0 110px #f8fc01,
+              0 0 120px #f8fc01,
+              0 0 140px #f8fc01;
 }
 
 .circle-container:nth-child(3) .circle {
   animation-delay: -0.6s;
+  background: #001b89;
+  box-shadow: 0 0 10px #001b89,
+              0 0 20px #f8fc01,
+              0 0 40px #f8fc01,
+              0 0 60px #f8fc01,
+              0 0 80px #001b89,
+              0 0 110px #001b89,
+              0 0 120px #001b89,
+              0 0 140px #001b89;
 }
 
 @keyframes animateCircle {
