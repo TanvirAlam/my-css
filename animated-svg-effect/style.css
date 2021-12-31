@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.right-wire, .left-wire {
+  animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+  0%, 18%, 20%, 40%, 60%, 80.5%, 90%, 95%, 100% {
+    fill: #0e3742;
+    filter: drop-shadow(0px 10px 4px #4444dd);
+  }
+  18.1%, 20.1%, 35%, 42.5%, 60.5%, 80.8%, 92.1%, 100% {
+    fill: rgb(248, 244, 2);
+    filter: drop-shadow(0px 3px 3px rgba(250, 5, 5, 0.4));
+  }
+}
+
+.two-1 {
+  animation: animateTwo1 2s linear infinite;
+}
+
+@keyframes animateTwo1 {
+  0%, 18%, 20%, 40%, 60%, 80.5%, 90%, 95%, 100% {
+    fill: #0e3742;
+    filter: drop-shadow(0px 10px 4px #0e3742);
+  }
+  18.1%, 20.1%, 35%, 42.5%, 60.5%, 80.8%, 92.1%, 100% {
+    fill:rgba(250, 5, 5, 0.4);
+    filter: drop-shadow(0px 10px 4px rgb(248, 244, 2));
+  }
+}
+
+.zero-circle {
+  fill: rgba(250, 5, 5, 0.4);
+  width: 50%;
+}

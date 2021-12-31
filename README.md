@@ -2,6 +2,11 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- Animated SVG effect<br>
+  ![images/Peek_2021-12-31_20-33.gif](images/Peek_2021-12-31_20-33.gif)
+
+  - `https://undraw.co/illustrations`
+
 - Animated circle with fake shadow effect<br>
   ![images/Peek_2021-12-31_13-55.gif](images/Peek_2021-12-31_13-55.gif)
 
