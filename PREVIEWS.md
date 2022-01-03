@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [Animated SVG go creazy effect](https://github.com/TanvirAlam/my-css/tree/main/animated-svg-creazy-effect)<br>
+  ![images/Peek_2022-01-03_22-06.gif](images/Peek_2022-01-03_22-06.gif)
+
 - [Animated SVG effect](https://github.com/TanvirAlam/my-css/tree/main/animated-svg-effect)<br>
   ![images/Peek_2021-12-31_20-33.gif](images/Peek_2021-12-31_20-33.gif)
 
