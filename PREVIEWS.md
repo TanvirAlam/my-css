@@ -5,6 +5,8 @@
 - [Animated box effect](https://github.com/TanvirAlam/my-css/tree/main/animated-box-effect)<br>
   ![images/Peek_2022-01-04_19-50.gif](images/Peek_2022-01-04_19-50.gif)
 
+  - The inner HTML animation does not work
+
 - [Animated SVG go creazy effect](https://github.com/TanvirAlam/my-css/tree/main/animated-svg-creazy-effect)<br>
   ![images/Peek_2022-01-03_22-06.gif](images/Peek_2022-01-03_22-06.gif)
 
