@@ -2,6 +2,11 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [Animated search box effect](https://github.com/TanvirAlam/my-css/tree/main/animated-search-box-effect)<br>
+  ![images/Peek_2022-01-05_23-05.gif](images/Peek_2022-01-05_23-05.gif)
+
+  - `https://ionic.io/ionicons`
+
 - [Animated box effect](https://github.com/TanvirAlam/my-css/tree/main/animated-box-effect)<br>
   ![images/Peek_2022-01-04_19-50.gif](images/Peek_2022-01-04_19-50.gif)
 

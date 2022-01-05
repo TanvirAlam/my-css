@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: #cfd1e1;
+  overflow: hidden;
+}
+
+.searchBox {
+  position: relative;
+  width: 65px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.searchBox:hover {
+  width: 400px;
+}
+
+.searchBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(#fff, #fff, #e3e3e3);
+  z-index: 1;
+  filter: blur(1px);
+}
+
+.searchBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 10px;
+  height: 100%;
+  background: #9d9d9d;
+  z-index: 1;
+  filter: blur(1px);
+}
+
+.searchBox input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1.1em;
+  color: #555;
+  background: linear-gradient(#dbdae1, #a3aaba);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+  15px 15px 15px rgba(0,0,0,0.1),
+  25px 25px 15px rgba(0,0,0,0.1),
+  35px 35px 15px rgba(0,0,0,0.1),
+  inset 1px 1px 2px #fff;
+}
+
+.searchBox input::placeholder, .searchBox input {
+  color: transparent;
+}
+
+.searchBox:hover input::placeholder, .searchBox:hover input {
+  color: #555;
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: calc(100% + 50px);
+  height: 300px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.1), transparent, transparent);
+  transform-origin: top;
+  transform: skew(45deg);
+  pointer-events: none;
+}
+
+.shadow::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #cfd1e1;
+  z-index: 1;
+}
+
+ion-icon {
+  position: absolute;
+  right: 20px;
+  color: #555;
+  font-size: 1.5em;
+  cursor: pointer;
+}
