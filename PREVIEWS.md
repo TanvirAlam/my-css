@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [Animated 3d text effect](https://github.com/TanvirAlam/my-css/tree/main/animated-3d-text-effect)<br>
+  ![images/Peek_2022-01-06_20-32.gif](images/Peek_2022-01-06_20-32.gif)
+
 - [Animated search box effect](https://github.com/TanvirAlam/my-css/tree/main/animated-search-box-effect)<br>
   ![images/Peek_2022-01-05_23-05.gif](images/Peek_2022-01-05_23-05.gif)
 
