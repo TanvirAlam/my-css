@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [fancy-checkbox-effect](https://github.com/TanvirAlam/my-css/tree/main/fancy-checkbox-effect)<br>
+  ![images/??????.gif](images/????.gif)
+
 - [Animated 3d text effect](https://github.com/TanvirAlam/my-css/tree/main/animated-3d-text-effect)<br>
   ![images/Peek_2022-01-06_20-32.gif](images/Peek_2022-01-06_20-32.gif)
 
