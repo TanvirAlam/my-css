@@ -2,8 +2,11 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [glassmorphism-list-hover-effect](https://github.com/TanvirAlam/my-css/tree/main/glassmorphism-list-hover-effect)<br>
+  ![images/Peek_2022-01-11_20-42.gif](images/Peek_2022-01-11_20-42.gif)
+
 - [fancy-checkbox-effect](https://github.com/TanvirAlam/my-css/tree/main/fancy-checkbox-effect)<br>
-  ![images/??????.gif](images/????.gif)
+  ![images/Peek_2022-01-08_00-40.gif](images/Peek_2022-01-08_00-40.gif)
 
 - [Animated 3d text effect](https://github.com/TanvirAlam/my-css/tree/main/animated-3d-text-effect)<br>
   ![images/Peek_2022-01-06_20-32.gif](images/Peek_2022-01-06_20-32.gif)
