@@ -2,6 +2,12 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [custom-checkbox-effect](https://github.com/TanvirAlam/my-css/tree/main/custom-checkbox-effect)<br>
+  ![images/Peek_2022-01-14_10-43.gif](images/Peek_2022-01-14_10-43.gif)
+
+  - https://www.omnicalculator.com/math/square-diagonal
+  - https://ionic.io/ionicons
+
 - [glassmorphism-list-hover-effect](https://github.com/TanvirAlam/my-css/tree/main/glassmorphism-list-hover-effect)<br>
   ![images/Peek_2022-01-11_20-42.gif](images/Peek_2022-01-11_20-42.gif)
 
