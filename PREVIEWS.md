@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [action-menu-effect](https://github.com/TanvirAlam/my-css/tree/main/action-menu-effect)<br>
+  ![images/Peek_2022-01-14_16-37.gif](images/Peek_2022-01-14_16-37.gif)
+
 - [custom-checkbox-effect](https://github.com/TanvirAlam/my-css/tree/main/custom-checkbox-effect)<br>
   ![images/Peek_2022-01-14_10-43.gif](images/Peek_2022-01-14_10-43.gif)
 
