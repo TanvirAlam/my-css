@@ -8,6 +8,8 @@ Only guideline indent your code and do it first with CSS and if only if use Java
 
 This libary is only to know the limitation of CSS with current avaible tech.
 
+[View collections](https://github.com/TanvirAlam/my-css/blob/main/PREVIEWS.md)
+
 The rules:
 
 1. NO Frameworks
