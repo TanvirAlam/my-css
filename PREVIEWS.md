@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-radar-loader-effect](https://github.com/TanvirAlam/my-css/tree/main/animated-radar-loader-effect)<br>
+  ![images/Peek_2022-01-29_15-33.gif](images/Peek_2022-01-29_15-33.gif)
+
 - [login-form-design](https://github.com/TanvirAlam/my-css/tree/main/login-form-design)<br>
   ![images/Peek_2022-01-29_13-43.gif](images/Peek_2022-01-29_13-43.gif)
 
