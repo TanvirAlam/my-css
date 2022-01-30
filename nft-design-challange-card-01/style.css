@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Fruktur&family=Kumbh+Sans&family=Montserrat&family=Outfit:wght@400;700;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@200&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: hsl(217, 54%, 11%);
+  position: relative;
+}
+
+.card {
+  background: hsl(216, 50%, 16%);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCard img {
+  border-radius: 20px;
+}
+
+.imgCard .imgEye {
+  position: absolute;
+}
+
+.content {
+  margin-top: 25px;
+}
+
+.content h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.content p {
+  margin-top: 25px;
+  color: hsl(0, 0%, 100%);
+  opacity: 0.5;
+  font-size: 1.2rem;
+}
+
+.details {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details .loc {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: hsl(178, 100%, 50%);
+}
+
+.details .days {
+  color: hsl(0, 0%, 100%);
+  opacity: 0.5;
+}
+
+.user {
+  margin-top: 25px;
+  border-top: 1px solid hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+}
+
+.user img {
+  margin-top: 25px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+  width: 10%;
+  margin-right: 20px;
+}
+
+.user span {
+  margin-top: 25px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+
+.user span em {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
