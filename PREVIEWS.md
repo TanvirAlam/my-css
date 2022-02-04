@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [ripped-paper-effect](https://github.com/TanvirAlam/my-css/tree/main/ripped-paper-effect)<br>
+  ![images/Feb-04-2022_11-27-28.gif](images/Feb-04-2022_11-27-28.gif)
+  
 - [claymorphism-effect](https://github.com/TanvirAlam/my-css/tree/main/claymorphism-effect)<br>
   ![images/Feb-02-2022_11-25-55.gif](images/Feb-02-2022_11-25-55.gif)
   
