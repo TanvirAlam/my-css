@@ -5,6 +5,15 @@
 - [sidebar-nev-menu-effect](https://github.com/TanvirAlam/my-css/tree/main/sidebar-nev-menu-effect)<br>
   ![images/Peek_2022-02-26_22-39.gif](images/Peek_2022-02-26_22-39.gif)
 
+- [ripped-paper-effect](https://github.com/TanvirAlam/my-css/tree/main/ripped-paper-effect)<br>
+  ![images/Feb-04-2022_11-27-28.gif](images/Feb-04-2022_11-27-28.gif)
+  
+- [claymorphism-effect](https://github.com/TanvirAlam/my-css/tree/main/claymorphism-effect)<br>
+  ![images/Feb-02-2022_11-25-55.gif](images/Feb-02-2022_11-25-55.gif)
+  
+- [animated-button-hover-effect](https://github.com/TanvirAlam/my-css/tree/main/animated-button-hover-effect)<br>
+  ![images/Feb-01-2022_12-36-14.gif](images/Feb-01-2022_12-36-14.gif)
+
 - [animated-radar-loader-effect](https://github.com/TanvirAlam/my-css/tree/main/animated-radar-loader-effect)<br>
   ![images/Peek_2022-01-29_15-33.gif](images/Peek_2022-01-29_15-33.gif)
 

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: url(me.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.paper {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: url(paper.jpg);
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: lighten;
+  filter: brightness(1.25);
+}
