@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [Colorful glowing effect](https://github.com/TanvirAlam/my-css/tree/main/animated-colorful-glowing-effect)<br>
+  ![images/Apr-04-2022_11-23-49.gif](images/Apr-04-2022_11-23-49.gif)
+  
 - [custom-checkbox-coffee-cup-effect](https://github.com/TanvirAlam/my-css/tree/main/custom-checkbox-coffee-cup-effect)<br>
   ![images/Peek_2022-02-27_02-58.gif](images/Peek_2022-02-27_02-58.gif)
 
