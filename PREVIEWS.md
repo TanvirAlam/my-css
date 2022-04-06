@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-menu-hover-text-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-menu-hover-text-effects)<br>
+  ![images/Apr-06-2022_11-05-32.gif](images/Apr-06-2022_11-05-32.gif)
+
 - [Colorful glowing effect](https://github.com/TanvirAlam/my-css/tree/main/animated-colorful-glowing-effect)<br>
   ![images/Apr-04-2022_11-23-49.gif](images/Apr-04-2022_11-23-49.gif)
   
