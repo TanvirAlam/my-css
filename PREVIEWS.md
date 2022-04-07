@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-light-bulb-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-light-bulb-effects)<br>
+  ![images/Apr-07-2022_10-08-55.gif](images/Apr-07-2022_10-08-55.gif)
+  
 - [animated-menu-hover-text-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-menu-hover-text-effects)<br>
   ![images/Apr-06-2022_11-05-32.gif](images/Apr-06-2022_11-05-32.gif)
 
