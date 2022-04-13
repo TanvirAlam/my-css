@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-video-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-video-effects)<br>
+  ![images/Apr-13-2022_13-28-36.gif](images/Apr-13-2022_13-28-36.gif)
+  
 - [neumorphism-buttn-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/neumorphism-buttn-hover-effects)<br>
   ![images/Apr-08-2022_11-55-42.gif](images/Apr-08-2022_11-55-42.gif)
   

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="btn">
+        <div class="play"></div>
+        <p>Play Video</p>
+    </div>
+    <div class="clip">
+        <video src="video.mp4" controls></video>
+        <b class="close">Close</b>
+    </div>
+    <script>
+        let btn = document.querySelector('.btn');
+        let clip = document.querySelector('.clip');
+        let close = document.querySelector('.close');
+        let video = document.querySelector('video');
+        
+        btn.onclick = () => {
+            btn.classList.add('active');
+            clip.classList.add('active');
+            video.play();
+            video.currentTime = 0;
+        }
+        
+        close.onclick = () => {
+            btn.classList.remove('active');
+            clip.classList.remove('active');
+            video.pause();
+        }
+    </script>
+</body>
+</html>

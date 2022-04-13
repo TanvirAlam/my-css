@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn .play {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #56Fa56;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 25px #56Fa5666;
+  transition: 0.5s;
+}
+
+.btn.active .play {
+  box-shadow: 0 0 0 150vh #56Fa56;
+}
+
+.btn .play::before {
+  content: "";
+  position: absolute;
+  border: 25px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 0;
+  transform: translateX(5px);
+}
+
+.btn p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #888;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.clip {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  transition: 0.5s;
+}
+
+.clip.active {
+  transition-delay: 0.5s;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.clip video { 
+  max-width: 900px;
+  outline: none;
+  border: 10px solid #fff;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.clip .close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media(max-width: 991px) {
+  .clip video { 
+    max-width: 90%;
+  }
+}
