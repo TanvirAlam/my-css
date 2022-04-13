@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-box-circle-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-box-circle-effects)<br>
+  ![images/Apr-13-2022_14-34-15.gif](images/Apr-13-2022_14-34-15.gif)
+
 - [animated-video-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-video-effects)<br>
   ![images/Apr-13-2022_13-28-36.gif](images/Apr-13-2022_13-28-36.gif)
   
