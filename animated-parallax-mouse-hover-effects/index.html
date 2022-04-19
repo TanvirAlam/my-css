@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section>
+        <img src="img/1.png" data-speed="-5" class="layer">
+        <img src="img/2.png" data-speed="2" class="layer">
+        <img src="img/3.png" data-speed="3" class="layer">
+        <img src="img/4.png" data-speed="5" class="layer">
+        <img src="img/5.png" data-speed="-6" class="layer">
+        <img src="img/6.png" data-speed="8" class="layer">
+        <img src="img/7.png" data-speed="-9" class="layer">
+        <img src="img/8.png" data-speed="-7" class="layer">
+        <img src="img/9.png" data-speed="-4" class="layer">
+        <img src="img/10.png" data-speed="3" class="layer">
+        <img src="img/11.png" data-speed="8" class="layer">
+        <img src="img/12.png" data-speed="9" class="layer">
+        <h1 class="layer" data-speed="2">Tanvir Alam</h1>
+    </section>
+    <script type="text/javascript">
+        document.addEventListener("mousemove", parallax);
+        function parallax(e){
+            document.querySelectorAll('.layer').forEach(layer => {
+                const speed = layer.getAttribute('data-speed');
+                
+                const x = (window.innerWidth - e.pageX * speed) / 100;
+                const y = (window.innerHeight - e.pageY * speed) / 100;
+                
+                layer.style.transform = `translateX(${x}px translateY(${y}px`
+            })
+        }
+    </script>
+</body>
+</html>
