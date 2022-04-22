@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-border-mouse-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-border-mouse-hover-effects)<br>
+  ![images/Apr-22-2022_15-57-42.gif](images/Apr-22-2022_15-57-42.gif)
+
 - [animated-parallax-mouse-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-parallax-mouse-hover-effects)<br>
   ![images/Apr-19-2022_13-16-58.gif](images/Apr-19-2022_13-16-58.gif) NOT Working
   
