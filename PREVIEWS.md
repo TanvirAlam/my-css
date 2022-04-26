@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-dot-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-dot-hover-effects)<br>
+  ![images/Apr-26-2022_09-27-43.gif](images/Apr-26-2022_09-27-43.gif)
+
 - [animated-hot-cup-tea-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-hot-cup-tea-effects)<br>
   ![images/Apr-25-2022_09-48-44.gif](images/Apr-25-2022_09-48-44.gif)
 
