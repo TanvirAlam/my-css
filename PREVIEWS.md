@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [sliding-product-card-effects](https://github.com/TanvirAlam/my-css/tree/main/sliding-product-card-effects)<br>
+  ![images/Apr-27-2022_12-59-57.gif](images/Apr-27-2022_12-59-57.gif)
+
 - [animated-dot-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-dot-hover-effects)<br>
   ![images/Apr-26-2022_09-27-43.gif](images/Apr-26-2022_09-27-43.gif)
 
