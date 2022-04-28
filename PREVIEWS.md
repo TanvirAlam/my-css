@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-profile-card-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-profile-card-effects)<br>
+  ![images/Apr-28-2022_10-53-20.gif](images/Apr-28-2022_10-53-20.gif)
+
 - [sliding-product-card-effects](https://github.com/TanvirAlam/my-css/tree/main/sliding-product-card-effects)<br>
   ![images/Apr-27-2022_12-59-57.gif](images/Apr-27-2022_12-59-57.gif)
 
