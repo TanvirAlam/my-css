@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-light-neumorphism-card-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-light-neumorphism-card-effects)<br>
+  ![images/Apr-29-2022_09-56-43.gif](images/Apr-29-2022_09-56-43.gif)
+
 - [animated-profile-card-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-profile-card-effects)<br>
   ![images/Apr-28-2022_10-53-20.gif](images/Apr-28-2022_10-53-20.gif)
 
