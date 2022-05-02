@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 20px;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card:hover {
+  width: 600px;
+  transition-delay: 0s;
+}
+
+.card .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .circle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr);
+  clip-path: circle(120px at center);
+  transition: 0.5s;
+}
+
+.card:hover .circle::before {
+  clip-path: circle(400px at center);
+}
+
+.card .circle .logo {
+  position: relative;
+  width: 200px;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.card:hover .circle .logo {
+  transform: scale(0);
+  transition-delay: 0;
+}
+
+.content {
+  position: relative;
+  width: 50%;
+  left: 20%;
+  padding: 20px 20px 20px 40px;
+  opacity: 0;
+  transition: 0.5s;
+  visibility: hidden;
+}
+
+.card:hover .content {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.content h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+.content p {
+  color: #fff;
+}
+
+.content a {
+  position: relative;
+  color: #111;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card .product {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  height: 500px;
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+.card:hover .product {
+  left: 72%;
+  transform: translate(-50%, -50%) scale(1);
+  transition-delay: 0.5s;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .card {
+    width: auto;
+    max-width: 350px;
+    align-items: flex-start;
+  }
+  
+  .card:hover {
+    height: 600px;
+  }
+  
+  .card:hover .product {
+    top: initial;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0) scale(1);
+    height: 300px;
+  }
+  
+  .card .content {
+    width: 100%;
+    left: 0;
+    padding: 40px;
+  }
+}
