@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-bricks-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-bricks-hover-effects)<br>
+  ![images/May-03-2022_10-54-58.gif](images/May-03-2022_10-54-58.gif)
+
 - [animated-product-card-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-product-card-hover-effects)<br>
   ![images/May-02-2022_10-16-01.gif](images/May-02-2022_10-16-01.gif)
 
