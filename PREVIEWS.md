@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-object-balance-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-object-balance-effects)<br>
+  ![images/May-05-2022_09-38-55.gif](images/May-05-2022_09-38-55.gif)
+
 - [animated-image-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-image-hover-effects)<br>
   ![images/May-04-2022_10-25-15.gif](images/May-04-2022_10-25-15.gif)
 
