@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-calculator-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-calculator-effects)<br>
+  ![images/May-06-2022_10-26-28.gif](images/May-06-2022_10-26-28.gif)
+
 - [animated-object-balance-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-object-balance-effects)<br>
   ![images/May-05-2022_09-38-55.gif](images/May-05-2022_09-38-55.gif)
 
