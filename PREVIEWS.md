@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-cloud-rain-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-cloud-rain-effects)<br>
+  ![images/Peek_2022-05-08_18-20.gif](images/Peek_2022-05-08_18-20.gif)
+
 - [animated-button-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-button-hover-effects)<br>
   ![images/Peek_2022-05-08_02-45.gif](images/Peek_2022-05-08_02-45.gif)
 
