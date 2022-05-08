@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Fruktur&family=Kumbh+Sans&family=Montserrat&family=Oleo+Script+Swash+Caps:wght@400;700&family=Outfit:wght@400;700;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@200&family=Syne+Tactile&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oleo Script Swash Caps", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #006bc6, #1ecafc);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container h2 {
+  position: absolute;
+  color: #fff;
+  font-size: 1.75em;
+  font-weight: 500;
+}
+
+.loader {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.25);
+  filter: url(#Gooey);
+}
+
+.loader span {
+  position: absolute;
+  left: 0;
+  transform-origin: 150px;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 100%;
+  animation: animate 5s ease-in-out infinite;
+  animation-delay: calc(0.15s * var(--i));
+}
+
+@keyframes animate {
+  0%,10% {
+    width: 100px;
+    height: 100px;
+    transform: rotate(0deg) translateX(120px);
+  }
+  40%,70% {
+    width: 40px;
+    height: 40px;
+    transform: rotate(calc(360deg / 8 * var(--i)));
+    box-shadow: 0 0 0 10px #fff;
+  }
+  90%,100% {
+    width: 100px;
+    height: 100px;
+    transform: rotate(0deg) translateX(120px);
+  }
+}
+
+svg {
+  width: 0;
+  height: 0;
+}

@@ -8,7 +8,7 @@ Only guideline indent your code and do it first with CSS and if only if use Java
 
 This libary is only to know the limitation of CSS with current avaible tech.
 
-### TOTAL: 67 CSS Artistry
+### TOTAL: 68 CSS Artistry
 [View collections](https://github.com/TanvirAlam/my-css/blob/main/PREVIEWS.md)
 
 The rules:

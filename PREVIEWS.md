@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-milk-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-milk-menu-effects)<br>
+  ![images/Peek_2022-05-08_02-14.gif](images/Peek_2022-05-08_02-14.gif)
+
 - [animated-calculator-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-calculator-effects)<br>
   ![images/May-06-2022_10-26-28.gif](images/May-06-2022_10-26-28.gif)
 
