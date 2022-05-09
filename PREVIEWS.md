@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-smoke-text-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-smoke-text-effects)<br>
+  ![images/May-09-2022_16-11-50.gif](images/May-09-2022_16-11-50.gif)
+
 - [animated-floating-action-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-floating-action-menu-effects)<br>
   ![images/May-09-2022_11-20-33.gif](images/May-09-2022_11-20-33.gif)
 
