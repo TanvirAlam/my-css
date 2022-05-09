@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-floating-action-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-floating-action-menu-effects)<br>
+  ![images/May-09-2022_11-20-33.gif](images/May-09-2022_11-20-33.gif)
+
 - [animated-cloud-rain-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-cloud-rain-effects)<br>
   ![images/Peek_2022-05-08_18-20.gif](images/Peek_2022-05-08_18-20.gif)
 
