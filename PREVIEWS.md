@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-delete-button-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-delete-button-effects)<br>
+  ![images/May-10-2022_12-15-32.gif](images/May-10-2022_12-15-32.gif)
+
 - [animated-smoke-text-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-smoke-text-effects)<br>
   ![images/May-09-2022_16-11-50.gif](images/May-09-2022_16-11-50.gif)
 
