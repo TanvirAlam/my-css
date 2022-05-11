@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-navigation-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-navigation-menu-effects)<br>
+  ![images/May-11-2022_11-29-47.gif](images/May-11-2022_11-29-47.gif)
+  
 - [animated-delete-button-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-delete-button-effects)<br>
   ![images/May-10-2022_12-15-32.gif](images/May-10-2022_12-15-32.gif)
 
