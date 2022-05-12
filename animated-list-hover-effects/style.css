@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background:#f7f7f7;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container .box {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.025);
+  border-radius: 20px;
+}
+
+.container .box:nth-child(1) {
+  transform: translateX(-70px);
+}
+
+.container .box:nth-child(3) {
+  transform: translateX(70px);
+}
+
+.container:hover .box:nth-child(1) {
+  transform: translateX(0);
+}
+
+.container:hover .box:nth-child(3) {
+  transform: translateX(0);
+}
+
+.container .box::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: var(--clr);
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover::before {
+  width: 100%;
+}
+
+.container .box .content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.container .box .content .icon {
+  position: relative;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box .content .icon ion-icon {
+  font-size: 2.5em;
+  color: var(--clr);
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .icon ion-icon {
+  color: #fff;
+}
+
+.container .box .content .text h3 {
+  font-weight: 600;
+  color: var(--clr);
+  transition: 0.5s ease-in-out;
+}
+
+.container .box .content .text p {
+  color: #999;
+  font-size: 0.9em;
+  transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .text h3,
+.container .box:hover .content .text p {
+  color: #fff;
+}
