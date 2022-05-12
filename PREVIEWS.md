@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-3d-flip-checkbox-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-3d-flip-checkbox-effects)<br>
+  ![images/Peek_2022-05-12_23-44.gif](images/Peek_2022-05-12_23-44.gif)
+
 - [animated-list-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-list-hover-effects)<br>
   ![images/May-12-2022_10-39-12.gif](images/May-12-2022_10-39-12.gif)
 
