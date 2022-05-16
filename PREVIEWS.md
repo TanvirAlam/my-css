@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-circular-navigation-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-circular-navigation-effects)<br>
+  ![images/May-16-2022_12-40-25.gif](images/May-16-2022_12-40-25.gif)
+
 - [animated-popup-box-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-popup-box-effects)<br>
   ![images/May-16-2022_09-57-28.gif](images/May-16-2022_09-57-28.gif)
 
