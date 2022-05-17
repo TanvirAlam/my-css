@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-isometric-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-isometric-menu-effects)<br>
+  ![images/May-17-2022_10-17-01.gif](images/May-17-2022_10-17-01.gif)
+
 - [animated-circular-navigation-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-circular-navigation-effects)<br>
   ![images/May-16-2022_12-40-25.gif](images/May-16-2022_12-40-25.gif)
 
