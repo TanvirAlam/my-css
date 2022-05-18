@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-gradient-border-card-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-gradient-border-card-effects)<br>
+  ![images/May-18-2022_11-28-57.gif](images/May-18-2022_11-28-57.gif)
+
 - [animated-radio-button-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-radio-button-effects)<br>
   ![images/May-18-2022_10-44-44.gif](images/May-18-2022_10-44-44.gif)
 
