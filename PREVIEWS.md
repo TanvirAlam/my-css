@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-radio-button-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-radio-button-effects)<br>
+  ![images/May-18-2022_10-44-44.gif](images/May-18-2022_10-44-44.gif)
+
 - [animated-weird-card-design-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-weird-card-design-effects)<br>
   ![images/May-17-2022_12-00-07.gif](images/May-17-2022_12-00-07.gif)
 
