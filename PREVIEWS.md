@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-dotted-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-dotted-menu-effects)<br>
+  ![images/May-19-2022_10-13-37.gif](images/May-19-2022_10-13-37.gif)
+
 - [animated-gradient-border-card-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-gradient-border-card-effects)<br>
   ![images/May-18-2022_11-28-57.gif](images/May-18-2022_11-28-57.gif)
 
