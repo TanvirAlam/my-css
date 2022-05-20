@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-5-star-rating-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-5-star-rating-effects)<br>
+  ![images/May-20-2022_11-23-46.gif](images/May-20-2022_11-23-46.gif)
+
 - [animated-radio-button-2-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-radio-button-2-effects)<br>
   ![images/May-20-2022_09-52-23.gif](images/May-20-2022_09-52-23.gif)
 
