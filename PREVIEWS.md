@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-radio-button-2-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-radio-button-2-effects)<br>
+  ![images/May-20-2022_09-52-23.gif](images/May-20-2022_09-52-23.gif)
+
 - [animated-dotted-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-dotted-menu-effects)<br>
   ![images/May-19-2022_10-13-37.gif](images/May-19-2022_10-13-37.gif)
 
