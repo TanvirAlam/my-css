@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.scene {
+  position: relative;
+  background: linear-gradient(#a6d8ff, #fff, #fff);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.dark .scene {
+  background: #222833;
+}
+
+.sun {
+  position: absolute;
+  top: 100px;
+  left: 55%;
+  transform: translateX(-50%);
+  width: 100px;
+  height:100px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #fff,
+              0 0 80px #fff,
+              0 0 100px rgb(249, 245, 1),
+              0 0 150px #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.dark .sun {
+  left: 45%;
+  box-shadow: 0 0 0 #fff;
+}
+
+.dark .sun::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  width: 100%;
+  height: 100%;
+  background: #222833;
+  border-radius: 50%;
+}
+
+.bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 280px;
+  background: url(bg.png);
+  animation: animateBg 25s linear infinite;
+  background-size: 1500px;
+  background-repeat: repeat-x;
+}
+
+@keyframes animateBg {
+  0% {
+    background-position-x: 0px; 
+  }
+  100% {
+    background-position-x: -1500px;
+  }
+}
+
+.car1 {
+  position: absolute;
+  left: -200px;
+  bottom: 20px;
+  max-width: 200px;
+  z-index: 10;
+  animation: car1_move 18s linear infinite;
+}
+
+@keyframes car1_move {
+  0% {
+    transform: translateX(0px);
+  }
+  90%,100% {
+    transform: translateX(calc(100vw + 200px));
+  }
+}
+
+.car2 {
+  position: absolute;
+  right: -200px;
+  bottom: 50px;
+  max-width: 200px;
+  z-index: 9;
+  animation: car2_move 12s linear infinite;
+}
+
+@keyframes car2_move {
+  0% {
+    transform: translateX(0px) rotateY(180deg);
+  }
+  90%,100% {
+    transform: translateX(calc(-100vw - 200px)) rotateY(180deg);
+  }
+}
+
+.car3 {
+  position: absolute;
+  right: -200px;
+  bottom: 50px;
+  max-width: 200px;
+  z-index: 9;
+  animation: car3_move 20s linear infinite;
+}
+
+@keyframes car3_move {
+  0% {
+    transform: translateX(0px) rotateY(180deg);
+  }
+  90%,100% {
+    transform: translateX(calc(-100vw - 200px)) rotateY(180deg);
+  }
+}
+
+.car4 {
+  position: absolute;
+  right: -200px;
+  bottom: 25px;
+  max-width: 200px;
+  z-index: 9;
+  animation: car4_move 15s linear infinite;
+}
+
+@keyframes car4_move {
+  0% {
+    transform: translateX(0px) rotateY(180deg);
+  }
+  90%,100% {
+    transform: translateX(calc(-100vw - 200px)) rotateY(180deg);
+  }
+}
+
+.car5 {
+  position: absolute;
+  right: -200px;
+  bottom: 30px;
+  max-width: 200px;
+  z-index: 9;
+  animation: car5_move 10s linear infinite;
+}
+
+@keyframes car5_move {
+  0% {
+    transform: translateX(0px);
+  }
+  90%,100% {
+    transform: translateX(calc(-100vw - 200px));
+  }
+}

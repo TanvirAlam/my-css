@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-background-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-background-effects)<br>
+  ![images/May-23-2022_10-45-41.gif](images/May-23-2022_10-45-41.gif)
+
 - [animated-arrow-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-arrow-menu-effects)<br>
   ![images/Peek_2022-05-22_17-06.gif](images/Peek_2022-05-22_17-06.gif)
 
