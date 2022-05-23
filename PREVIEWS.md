@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [text-around-effects](https://github.com/TanvirAlam/my-css/tree/main/text-around-effects)<br>
+  ![images/May-23-2022_11-34-14.gif](images/May-23-2022_11-34-14.gif)
+
 - [animated-background-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-background-effects)<br>
   ![images/May-23-2022_10-45-41.gif](images/May-23-2022_10-45-41.gif)
 
