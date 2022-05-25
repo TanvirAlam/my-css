@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-flying-plane-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-flying-plane-effects)<br>
+  ![images/Peek_2022-05-25_21-53.gif](images/Peek_2022-05-25_21-53.gif)
+
 - [animated-menu-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-menu-hover-effects)<br>
   ![images/Peek_2022-05-25_17-34.gif](images/Peek_2022-05-25_17-34.gif)
 
