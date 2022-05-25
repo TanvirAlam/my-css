@@ -2,6 +2,9 @@
 
 **_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
 
+- [animated-bobble-blob-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-bobble-blob-effects)<br>
+  ![images/Peek_2022-05-25_23-04.gif](images/Peek_2022-05-25_23-04.gif)
+
 - [animated-flying-plane-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-flying-plane-effects)<br>
   ![images/Peek_2022-05-25_21-53.gif](images/Peek_2022-05-25_21-53.gif)
 
