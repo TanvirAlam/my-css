@@ -1,6 +1,6 @@
 ## This is my collection of ideas:
 
-**_CAUTION_**:: <b style="color: red;">**THIS IS ONLY CSS**</b>
+**_CAUTION_**:: <b style="color: red;">**TOTAL: 91 CSS Artistry**</b>
 
 - [animated-bobble-blob-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-bobble-blob-effects)<br>
   ![images/Peek_2022-05-25_23-04.gif](images/Peek_2022-05-25_23-04.gif)
