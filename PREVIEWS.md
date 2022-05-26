@@ -2,6 +2,9 @@
 
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 92 CSS Artistry</span>
 
+- [flexbox-navbar](https://github.com/TanvirAlam/my-css/tree/main/flexbox-navbar)<br>
+  ![images/Peek_2022-05-27_01-05.gif](images/Peek_2022-05-27_01-05.gif)
+
 - [animated-sticky-scroll-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-sticky-scroll-effects)<br>
   ![images/Peek_2022-05-26_23-23.gif](images/Peek_2022-05-26_23-23.gif)
 
