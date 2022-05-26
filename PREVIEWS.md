@@ -1,6 +1,9 @@
-## This is my collection of ideas:
+## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 91 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 92 CSS Artistry</span>
+
+- [animated-menu-toggle-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-menu-toggle-effects)<br>
+  ![images/Peek_2022-05-26_13-56.gif](images/Peek_2022-05-26_13-56.gif)
 
 - [animated-bobble-blob-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-bobble-blob-effects)<br>
   ![images/Peek_2022-05-25_23-04.gif](images/Peek_2022-05-25_23-04.gif)
@@ -158,8 +161,8 @@
 - [custom-checkbox-effect](https://github.com/TanvirAlam/my-css/tree/main/custom-checkbox-effect)<br>
   ![images/Peek_2022-01-14_10-43.gif](images/Peek_2022-01-14_10-43.gif)
 
-  - https://www.omnicalculator.com/math/square-diagonal
-  - https://ionic.io/ionicons
+  - <https://www.omnicalculator.com/math/square-diagonal>
+  - <https://ionic.io/ionicons>
 
 - [glassmorphism-list-hover-effect](https://github.com/TanvirAlam/my-css/tree/main/glassmorphism-list-hover-effect)<br>
   ![images/Peek_2022-01-11_20-42.gif](images/Peek_2022-01-11_20-42.gif)
