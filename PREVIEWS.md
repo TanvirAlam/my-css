@@ -3,7 +3,7 @@
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 91 CSS Artistry</span>
 
 - [animated-bobble-blob-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-bobble-blob-effects)<br>
-  ![images/Peek_2022-05-25_23-04.gif](images/Peek_2022-05-25_23-0f4.gif)
+  ![images/Peek_2022-05-25_23-04.gif](images/Peek_2022-05-25_23-04.gif)
 
 - [animated-flying-plane-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-flying-plane-effects)<br>
   ![images/Peek_2022-05-25_21-53.gif](images/Peek_2022-05-25_21-53.gif)
