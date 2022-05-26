@@ -3,7 +3,7 @@
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 92 CSS Artistry</span>
 
 - [animated-sticky-scroll-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-sticky-scroll-effects)<br>
-  ![images/??????.gif](images/????????.gif)
+  ![images/Peek_2022-05-26_23-23.gif](images/Peek_2022-05-26_23-23.gif)
 
 - [animated-menu-toggle-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-menu-toggle-effects)<br>
   ![images/Peek_2022-05-26_13-56.gif](images/Peek_2022-05-26_13-56.gif)
