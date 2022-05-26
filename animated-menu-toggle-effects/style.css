@@ -38,7 +38,7 @@ body {
   transition: 0.5s;
 }
 
-.toggle.active span {
+.toggle:active span {
   background: red;
   box-shadow: 0 0 10px rgb(156, 17, 17), 
                0 0 20px rgb(192, 127, 127), 
@@ -52,7 +52,7 @@ body {
   left: 15px;
 }
 
-.toggle.active span:nth-child(1) {
+.toggle:active span:nth-child(1) {
   width: 40px;
   transform: translateY(0) rotate(45deg);
   transition-delay: 0.125s;
@@ -64,12 +64,12 @@ body {
   left: 15px;
 }
 
-.toggle.active span:nth-child(2) {
+.toggle:active span:nth-child(2) {
   width: 40px;
   transform: translateY(0) rotate(315deg);
   transition-delay: 0.25s;
 }
 
-.toggle.active span:nth-child(3) {
+.toggle:active span:nth-child(3) {
   transform: translateX(100px);
 }
