@@ -8,7 +8,8 @@ Only guideline indent your code and do it first with CSS and if only if use Java
 
 This libary is only to know the limitation of CSS with current avaible tech.
 
-### TOTAL: 91 CSS Artistry
+### TOTAL: <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 91 CSS Artistry</span>
+
 [View collections](https://github.com/TanvirAlam/my-css/blob/main/PREVIEWS.md)
 
 The rules:
