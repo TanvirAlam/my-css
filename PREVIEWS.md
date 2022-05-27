@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 92 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 93 CSS Artistry</span>
+
+- [button-ripple-effects](https://github.com/TanvirAlam/my-css/tree/main/button-ripple-effects)<br>
+  ![images/Peek_2022-05-27_17-20.gif](images/Peek_2022-05-27_17-20.gif)
 
 - [flexbox-navbar](https://github.com/TanvirAlam/my-css/tree/main/flexbox-navbar)<br>
   ![images/Peek_2022-05-27_01-05.gif](images/Peek_2022-05-27_01-05.gif)
