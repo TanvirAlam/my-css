@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 93 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 94 CSS Artistry</span>
+
+- [animated-background-css-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-background-css-effects)<br>
+  ![images/Peek_2022-05-28_00-40.gif](images/Peek_2022-05-28_00-40.gif)
 
 - [button-ripple-effects](https://github.com/TanvirAlam/my-css/tree/main/button-ripple-effects)<br>
   ![images/Peek_2022-05-27_17-20.gif](images/Peek_2022-05-27_17-20.gif)
