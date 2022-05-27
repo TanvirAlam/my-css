@@ -4,11 +4,11 @@
 
 Only guideline indent your code and do it first with CSS and if only if use JavaScript.
 
-### NO FRAMEWORKS!!!!!!!!
+### NO FRAMEWORKS
 
 This libary is only to know the limitation of CSS with current avaible tech.
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 91 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 95 CSS Artistry</span>
 
 [View collections](https://github.com/TanvirAlam/my-css/blob/main/PREVIEWS.md)
 
