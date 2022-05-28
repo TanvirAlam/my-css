@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 98 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 99 CSS Artistry</span>
+
+- [animated-cube-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-cube-effects)<br>
+  ![images/Peek_2022-05-28_22-55.gif](images/Peek_2022-05-28_22-55.gif)
 
 - [animated-hourse-running-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-hourse-running-effects)<br>
   ![images/Peek_2022-05-28_22-39.gif](images/Peek_2022-05-28_22-39.gif)
