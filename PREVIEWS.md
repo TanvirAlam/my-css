@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 99 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 100 CSS Artistry</span>
+
+- [animated-macbook-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-macbook-effects)<br>
+  ![images/Peek_2022-05-28_23-02.gif](images/Peek_2022-05-28_23-02.gif)
 
 - [animated-cube-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-cube-effects)<br>
   ![images/Peek_2022-05-28_22-55.gif](images/Peek_2022-05-28_22-55.gif)
