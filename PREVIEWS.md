@@ -1,6 +1,12 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 96 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 97 CSS Artistry</span>
+
+- [animated-flying-text-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-flying-text-effects)<br>
+  ![images/Peek_2022-05-28_03-23.gif](images/Peek_2022-05-28_03-23.gif)
+
+- [transform-scroll-effects](https://github.com/TanvirAlam/my-css/tree/main/transform-scroll-effects)<br>
+  ![images/Peek_2022-05-28_02-40.gif](images/Peek_2022-05-28_02-40.gif)
 
 - [transform-scroll-effects](https://github.com/TanvirAlam/my-css/tree/main/transform-scroll-effects)<br>
   ![images/Peek_2022-05-28_02-40.gif](images/Peek_2022-05-28_02-40.gif)
