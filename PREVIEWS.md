@@ -39,9 +39,6 @@
 - [transform-scroll-effects](https://github.com/TanvirAlam/my-css/tree/main/transform-scroll-effects)<br>
   ![images/Peek_2022-05-28_02-40.gif](images/Peek_2022-05-28_02-40.gif)
 
-- [transform-scroll-effects](https://github.com/TanvirAlam/my-css/tree/main/transform-scroll-effects)<br>
-  ![images/Peek_2022-05-28_02-40.gif](images/Peek_2022-05-28_02-40.gif)
-
 - [animated-background-css-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-background-css-effects)<br>
   ![images/Peek_2022-05-28_00-40.gif](images/Peek_2022-05-28_00-40.gif)
 
