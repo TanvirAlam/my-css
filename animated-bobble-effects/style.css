@@ -1,0 +1,3634 @@
+html, body {
+  height: 100%;
+  min-height: 600px;
+  background-color: #FFF;
+}
+
+.particle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.3), 0 -28px 14px rgba(0, 0, 0, 0.1) inset, 0 42px 14px rgba(255, 255, 255, 0.1) inset;
+  opacity: 0;
+  animation: doit 2500ms infinite cubic-bezier(0.125, 0, 0.41, 0);
+  animation-direction: reverse;
+}
+
+#particle1 {
+  background: #860aff;
+  transform: translateX(-186.88293px) translateY(-135.77839px) scale(0.06456);
+  animation-delay: -1385ms;
+}
+
+#particle2 {
+  background: #8e0cff;
+  transform: translateX(-224.55601px) translateY(-14.12787px) scale(0.07612);
+  animation-delay: -855ms;
+}
+
+#particle3 {
+  background: #ff43a1;
+  transform: translateX(7.15812px) translateY(-113.77505px) scale(0.43792);
+  animation-delay: -151ms;
+}
+
+#particle4 {
+  background: #ff3bb7;
+  transform: translateX(53.64819px) translateY(114.00821px) scale(0.38709);
+  animation-delay: -1336ms;
+}
+
+#particle5 {
+  background: #5500ff;
+  transform: translateX(203.31049px) translateY(216.50368px) scale(0.00012);
+  animation-delay: -2121ms;
+}
+
+#particle6 {
+  background: #5a01ff;
+  transform: translateX(244.48956px) translateY(134.40928px) scale(0.00604);
+  animation-delay: -1415ms;
+}
+
+#particle7 {
+  background: #5801ff;
+  transform: translateX(70.13055px) translateY(-273.14045px) scale(0.00444);
+  animation-delay: -2387ms;
+}
+
+#particle8 {
+  background: #7707ff;
+  transform: translateX(242.5205px) translateY(15.2581px) scale(0.04421);
+  animation-delay: -928ms;
+}
+
+#particle9 {
+  background: #ff26ff;
+  transform: translateX(154.07116px) translateY(50.06075px) scale(0.24989);
+  animation-delay: -1143ms;
+}
+
+#particle10 {
+  background: #7707ff;
+  transform: translateX(-212.94252px) translateY(117.06614px) scale(0.04421);
+  animation-delay: -2300ms;
+}
+
+#particle11 {
+  background: #ff30db;
+  transform: translateX(9.04183px) translateY(-143.71585px) scale(0.31545);
+  animation-delay: -2001ms;
+}
+
+#particle12 {
+  background: #ff28f9;
+  transform: translateX(29.79363px) translateY(156.18367px) scale(0.26037);
+  animation-delay: -678ms;
+}
+
+#particle13 {
+  background: #5801ff;
+  transform: translateX(-255.16123px) translateY(120.06976px) scale(0.00444);
+  animation-delay: -549ms;
+}
+
+#particle14 {
+  background: #5801ff;
+  transform: translateX(135.85454px) translateY(247.11848px) scale(0.00444);
+  animation-delay: -1621ms;
+}
+
+#particle15 {
+  background: #a511ff;
+  transform: translateX(177.30886px) translateY(-112.52363px) scale(0.10899);
+  animation-delay: -1786ms;
+}
+
+#particle16 {
+  background: #ff28f9;
+  transform: translateX(-156.18367px) translateY(-29.79363px) scale(0.26037);
+  animation-delay: -1725ms;
+}
+
+#particle17 {
+  background: #ff2de7;
+  transform: translateX(149.70401px) translateY(-9.41858px) scale(0.29289);
+  animation-delay: -1320ms;
+}
+
+#particle18 {
+  background: #5500ff;
+  transform: translateX(-218.69059px) translateY(205.36413px) scale(0);
+  animation-delay: -836ms;
+}
+
+#particle19 {
+  background: #ff36c9;
+  transform: translateX(-98.41076px) translateY(92.41386px) scale(0.35055);
+  animation-delay: -212ms;
+}
+
+#particle20 {
+  background: #e720ff;
+  transform: translateX(-170.91798px) translateY(32.60435px) scale(0.20984);
+  animation-delay: -2325ms;
+}
+
+#particle21 {
+  background: #930dff;
+  transform: translateX(222px) translateY(0px) scale(0.08225);
+  animation-delay: -1156ms;
+}
+
+#particle22 {
+  background: #ff26ff;
+  transform: translateX(146.58198px) translateY(68.97625px) scale(0.24989);
+  animation-delay: -1557ms;
+}
+
+#particle23 {
+  background: #ff517c;
+  transform: translateX(5.83952px) translateY(92.81649px) scale(0.53207);
+  animation-delay: -2364ms;
+}
+
+#particle24 {
+  background: #5700ff;
+  transform: translateX(-278.95195px) translateY(71.62269px) scale(0.00197);
+  animation-delay: -1352ms;
+}
+
+#particle25 {
+  background: #af13ff;
+  transform: translateX(25.56798px) translateY(-202.3914px) scale(0.12369);
+  animation-delay: -2109ms;
+}
+
+#particle26 {
+  background: #5b01ff;
+  transform: translateX(132.96401px) translateY(241.86064px) scale(0.00789);
+  animation-delay: -1150ms;
+}
+
+#particle27 {
+  background: #ba15ff;
+  transform: translateX(-37.1015px) translateY(194.49288px) scale(0.13926);
+  animation-delay: -1538ms;
+}
+
+#particle28 {
+  background: #5500ff;
+  transform: translateX(187.40265px) translateY(226.53089px) scale(0.00049);
+  animation-delay: -2347ms;
+}
+
+#particle29 {
+  background: #860aff;
+  transform: translateX(-135.77839px) translateY(186.88293px) scale(0.06456);
+  animation-delay: -2471ms;
+}
+
+#particle30 {
+  background: #db1dff;
+  transform: translateX(-176.81171px) translateY(-33.72864px) scale(0.19098);
+  animation-delay: -737ms;
+}
+
+#particle31 {
+  background: #ff30db;
+  transform: translateX(-130.2951px) translateY(61.31222px) scale(0.31545);
+  animation-delay: -2222ms;
+}
+
+#particle32 {
+  background: #7a07ff;
+  transform: translateX(-194.16408px) translateY(141.06846px) scale(0.04894);
+  animation-delay: -1135ms;
+}
+
+#particle33 {
+  background: #6503ff;
+  transform: translateX(-125.73771px) translateY(-228.71604px) scale(0.02078);
+  animation-delay: -2373ms;
+}
+
+#particle34 {
+  background: #a010ff;
+  transform: translateX(0px) translateY(213px) scale(0.10197);
+  animation-delay: -1268ms;
+}
+
+#particle35 {
+  background: #ff30db;
+  transform: translateX(-142.86452px) translateY(-18.04799px) scale(0.31545);
+  animation-delay: -377ms;
+}
+
+#particle36 {
+  background: #6303ff;
+  transform: translateX(203.4155px) translateY(168.27993px) scale(0.01771);
+  animation-delay: -792ms;
+}
+
+#particle37 {
+  background: #970eff;
+  transform: translateX(-184.90782px) translateY(117.34607px) scale(0.0886);
+  animation-delay: -138ms;
+}
+
+#particle38 {
+  background: #ca19ff;
+  transform: translateX(-58.40421px) translateY(179.74968px) scale(0.16419);
+  animation-delay: -1983ms;
+}
+
+#particle39 {
+  background: #d61cff;
+  transform: translateX(-179.75857px) translateY(34.29078px) scale(0.18185);
+  animation-delay: -1272ms;
+}
+
+#particle40 {
+  background: #ca19ff;
+  transform: translateX(-179.74968px) translateY(-58.40421px) scale(0.16419);
+  animation-delay: -592ms;
+}
+
+#particle41 {
+  background: #5500ff;
+  transform: translateX(-18.46041px) translateY(293.41986px) scale(0.00049);
+  animation-delay: -12ms;
+}
+
+#particle42 {
+  background: #6d05ff;
+  transform: translateX(62.66985px) translateY(244.08296px) scale(0.03142);
+  animation-delay: -1696ms;
+}
+
+#particle43 {
+  background: #ff37c3;
+  transform: translateX(125.53946px) translateY(40.79024px) scale(0.36258);
+  animation-delay: -1641ms;
+}
+
+#particle44 {
+  background: #5700ff;
+  transform: translateX(207.75606px) translateY(195.09593px) scale(0.00308);
+  animation-delay: -141ms;
+}
+
+#particle45 {
+  background: #ff3fac;
+  transform: translateX(29.84279px) translateY(116.22998px) scale(0.41221);
+  animation-delay: -1566ms;
+}
+
+#particle46 {
+  background: #7306ff;
+  transform: translateX(222.58745px) translateY(-104.74171px) scale(0.03971);
+  animation-delay: -2192ms;
+}
+
+#particle47 {
+  background: #ff37c3;
+  transform: translateX(106.79024px) translateY(77.58765px) scale(0.36258);
+  animation-delay: -2335ms;
+}
+
+#particle48 {
+  background: #e720ff;
+  transform: translateX(-126.84054px) translateY(119.1112px) scale(0.20984);
+  animation-delay: -913ms;
+}
+
+#particle49 {
+  background: #6503ff;
+  transform: translateX(220.36959px) translateY(-139.85079px) scale(0.02078);
+  animation-delay: -1456ms;
+}
+
+#particle50 {
+  background: #ba15ff;
+  transform: translateX(24.81598px) translateY(-196.43871px) scale(0.13926);
+  animation-delay: -942ms;
+}
+
+#particle51 {
+  background: #5b01ff;
+  transform: translateX(249.73227px) translateY(-117.51508px) scale(0.00789);
+  animation-delay: -1560ms;
+}
+
+#particle52 {
+  background: #7005ff;
+  transform: translateX(0px) translateY(-249px) scale(0.03544);
+  animation-delay: -1462ms;
+}
+
+#particle53 {
+  background: #ff2fe1;
+  transform: translateX(62.58956px) translateY(133.00958px) scale(0.30409);
+  animation-delay: -1363ms;
+}
+
+#particle54 {
+  background: #7306ff;
+  transform: translateX(-246px) translateY(0px) scale(0.03971);
+  animation-delay: -89ms;
+}
+
+#particle55 {
+  background: #b514ff;
+  transform: translateX(-154.87316px) translateY(128.12222px) scale(0.13137);
+  animation-delay: -633ms;
+}
+
+#particle56 {
+  background: #ff2bed;
+  transform: translateX(81.9815px) translateY(129.18217px) scale(0.28187);
+  animation-delay: -257ms;
+}
+
+#particle57 {
+  background: #6503ff;
+  transform: translateX(-16.38833px) translateY(260.48498px) scale(0.02078);
+  animation-delay: -2195ms;
+}
+
+#particle58 {
+  background: #f323ff;
+  transform: translateX(165.02426px) translateY(31.48006px) scale(0.22949);
+  animation-delay: -2436ms;
+}
+
+#particle59 {
+  background: #5500ff;
+  transform: translateX(248.23241px) translateY(-157.53308px) scale(0.00049);
+  animation-delay: -747ms;
+}
+
+#particle60 {
+  background: #7e08ff;
+  transform: translateX(-14.88135px) translateY(236.53233px) scale(0.05391);
+  animation-delay: -2424ms;
+}
+
+#particle61 {
+  background: #c518ff;
+  transform: translateX(190.48602px) translateY(24.06398px) scale(0.15567);
+  animation-delay: -2161ms;
+}
+
+#particle62 {
+  background: #e720ff;
+  transform: translateX(152.47736px) translateY(-83.82514px) scale(0.20984);
+  animation-delay: -630ms;
+}
+
+#particle63 {
+  background: #5f02ff;
+  transform: translateX(0px) translateY(-270px) scale(0.01231);
+  animation-delay: -70ms;
+}
+
+#particle64 {
+  background: #8a0bff;
+  transform: translateX(192.50677px) translateY(-122.16851px) scale(0.07022);
+  animation-delay: -58ms;
+}
+
+#particle65 {
+  background: #ff2de7;
+  transform: translateX(-121.35255px) translateY(88.16779px) scale(0.29289);
+  animation-delay: -1483ms;
+}
+
+#particle66 {
+  background: #5600ff;
+  transform: translateX(140.19032px) translateY(-255.00524px) scale(0.00111);
+  animation-delay: -915ms;
+}
+
+#particle67 {
+  background: #930dff;
+  transform: translateX(-13.9395px) translateY(221.56193px) scale(0.08225);
+  animation-delay: -1786ms;
+}
+
+#particle68 {
+  background: #ff30db;
+  transform: translateX(-61.31222px) translateY(130.2951px) scale(0.31545);
+  animation-delay: -1320ms;
+}
+
+#particle69 {
+  background: #ffe28b;
+  transform: translateX(-17.11902px) translateY(5.56231px) scale(0.90589);
+  animation-delay: -283ms;
+}
+
+#particle70 {
+  background: #6d05ff;
+  transform: translateX(251.50274px) translateY(15.82321px) scale(0.03142);
+  animation-delay: -328ms;
+}
+
+#particle71 {
+  background: #a511ff;
+  transform: translateX(-89.41365px) translateY(-190.01368px) scale(0.10899);
+  animation-delay: -997ms;
+}
+
+#particle72 {
+  background: #5801ff;
+  transform: translateX(193.04228px) translateY(205.56915px) scale(0.00444);
+  animation-delay: -1943ms;
+}
+
+#particle73 {
+  background: #ff9b71;
+  transform: translateX(-9.55645px) translateY(-50.09665px) scale(0.73613);
+  animation-delay: -2037ms;
+}
+
+#particle74 {
+  background: #7e08ff;
+  transform: translateX(139.3051px) translateY(191.73703px) scale(0.05391);
+  animation-delay: -1452ms;
+}
+
+#particle75 {
+  background: #ff3db2;
+  transform: translateX(-52.37085px) translateY(-111.29373px) scale(0.39958);
+  animation-delay: -1027ms;
+}
+
+#particle76 {
+  background: #ff3bb7;
+  transform: translateX(31.33493px) translateY(-122.04148px) scale(0.38709);
+  animation-delay: -289ms;
+}
+
+#particle77 {
+  background: #aa12ff;
+  transform: translateX(131.94677px) translateY(-159.49624px) scale(0.11623);
+  animation-delay: -51ms;
+}
+
+#particle78 {
+  background: #ed22ff;
+  transform: translateX(21.43198px) translateY(169.65161px) scale(0.21957);
+  animation-delay: -1524ms;
+}
+
+#particle79 {
+  background: #5a01ff;
+  transform: translateX(-177.84129px) translateY(-214.97319px) scale(0.00604);
+  animation-delay: -668ms;
+}
+
+#particle80 {
+  background: #5500ff;
+  transform: translateX(250.76539px) translateY(-159.14056px) scale(0.00012);
+  animation-delay: -184ms;
+}
+
+#particle81 {
+  background: #6503ff;
+  transform: translateX(242.67166px) translateY(-96.08051px) scale(0.02078);
+  animation-delay: -1156ms;
+}
+
+#particle82 {
+  background: #8209ff;
+  transform: translateX(137.54175px) translateY(-189.30998px) scale(0.05912);
+  animation-delay: -1967ms;
+}
+
+#particle83 {
+  background: #d61cff;
+  transform: translateX(-160.36412px) translateY(-88.16092px) scale(0.18185);
+  animation-delay: -1109ms;
+}
+
+#particle84 {
+  background: #c518ff;
+  transform: translateX(185.96797px) translateY(47.74846px) scale(0.15567);
+  animation-delay: -1151ms;
+}
+
+#particle85 {
+  background: #7a07ff;
+  transform: translateX(30.07998px) translateY(238.10753px) scale(0.04894);
+  animation-delay: -2350ms;
+}
+
+#particle86 {
+  background: #c518ff;
+  transform: translateX(112.85477px) translateY(155.33126px) scale(0.15567);
+  animation-delay: -687ms;
+}
+
+#particle87 {
+  background: #5700ff;
+  transform: translateX(-257.87571px) translateY(121.3471px) scale(0.00308);
+  animation-delay: -752ms;
+}
+
+#particle88 {
+  background: #5600ff;
+  transform: translateX(-263.30467px) translateY(123.90177px) scale(0.00111);
+  animation-delay: -90ms;
+}
+
+#particle89 {
+  background: #af13ff;
+  transform: translateX(172.2429px) translateY(-109.30867px) scale(0.12369);
+  animation-delay: -1370ms;
+}
+
+#particle90 {
+  background: #7306ff;
+  transform: translateX(189.54626px) translateY(156.8063px) scale(0.03971);
+  animation-delay: -238ms;
+}
+
+#particle91 {
+  background: #860aff;
+  transform: translateX(-231px) translateY(0px) scale(0.06456);
+  animation-delay: -263ms;
+}
+
+#particle92 {
+  background: #6303ff;
+  transform: translateX(-263.47906px) translateY(-16.5767px) scale(0.01771);
+  animation-delay: -1573ms;
+}
+
+#particle93 {
+  background: #ff3fac;
+  transform: translateX(-119.76321px) translateY(7.53486px) scale(0.41221);
+  animation-delay: -1706ms;
+}
+
+#particle94 {
+  background: #f323ff;
+  transform: translateX(115.00391px) translateY(122.46673px) scale(0.22949);
+  animation-delay: -346ms;
+}
+
+#particle95 {
+  background: #ff28f9;
+  transform: translateX(39.54169px) translateY(-154.00472px) scale(0.26037);
+  animation-delay: -1295ms;
+}
+
+#particle96 {
+  background: #ff30db;
+  transform: translateX(69.37253px) translateY(-126.18816px) scale(0.31545);
+  animation-delay: -193ms;
+}
+
+#particle97 {
+  background: #5b01ff;
+  transform: translateX(212.66166px) translateY(-175.92902px) scale(0.00789);
+  animation-delay: -1995ms;
+}
+
+#particle98 {
+  background: #6503ff;
+  transform: translateX(-258.94194px) translateY(32.71197px) scale(0.02078);
+  animation-delay: -1517ms;
+}
+
+#particle99 {
+  background: #ff3fac;
+  transform: translateX(92.46159px) translateY(-76.49088px) scale(0.41221);
+  animation-delay: -15ms;
+}
+
+#particle100 {
+  background: #5a01ff;
+  transform: translateX(235.56749px) translateY(149.49568px) scale(0.00604);
+  animation-delay: -1494ms;
+}
+
+#particle101 {
+  background: #ff9b71;
+  transform: translateX(-34.9119px) translateY(-37.1774px) scale(0.73613);
+  animation-delay: -2092ms;
+}
+
+#particle102 {
+  background: #d01aff;
+  transform: translateX(79.19495px) translateY(168.29783px) scale(0.17292);
+  animation-delay: -1698ms;
+}
+
+#particle103 {
+  background: #e11fff;
+  transform: translateX(155.10628px) translateY(-85.2704px) scale(0.20032);
+  animation-delay: -1811ms;
+}
+
+#particle104 {
+  background: #5a01ff;
+  transform: translateX(0px) translateY(-279px) scale(0.00604);
+  animation-delay: -1305ms;
+}
+
+#particle105 {
+  background: #5a01ff;
+  transform: translateX(-149.49568px) translateY(235.56749px) scale(0.00604);
+  animation-delay: -403ms;
+}
+
+#particle106 {
+  background: #8a0bff;
+  transform: translateX(227.55009px) translateY(-14.31624px) scale(0.07022);
+  animation-delay: -1902ms;
+}
+
+#particle107 {
+  background: #ff3fac;
+  transform: translateX(57.81044px) translateY(105.1568px) scale(0.41221);
+  animation-delay: -1133ms;
+}
+
+#particle108 {
+  background: #6d05ff;
+  transform: translateX(-47.22009px) translateY(-247.53639px) scale(0.03142);
+  animation-delay: -1979ms;
+}
+
+#particle109 {
+  background: #ba15ff;
+  transform: translateX(-61.18536px) translateY(-188.30919px) scale(0.13926);
+  animation-delay: -1321ms;
+}
+
+#particle110 {
+  background: #ff4f81;
+  transform: translateX(65.71652px) translateY(-69.98099px) scale(0.51825);
+  animation-delay: -208ms;
+}
+
+#particle111 {
+  background: #6804ff;
+  transform: translateX(138.24331px) translateY(217.8366px) scale(0.02408);
+  animation-delay: -192ms;
+}
+
+#particle112 {
+  background: #5600ff;
+  transform: translateX(-281.8577px) translateY(72.36876px) scale(0.00111);
+  animation-delay: -69ms;
+}
+
+#particle113 {
+  background: #7005ff;
+  transform: translateX(-201.44523px) translateY(146.35853px) scale(0.03544);
+  animation-delay: -193ms;
+}
+
+#particle114 {
+  background: #5a01ff;
+  transform: translateX(86.21574px) translateY(-265.34477px) scale(0.00604);
+  animation-delay: -1857ms;
+}
+
+#particle115 {
+  background: #d01aff;
+  transform: translateX(150.47716px) translateY(109.32806px) scale(0.17292);
+  animation-delay: -2340ms;
+}
+
+#particle116 {
+  background: #6102ff;
+  transform: translateX(170.19221px) translateY(-205.72704px) scale(0.01489);
+  animation-delay: -1513ms;
+}
+
+#particle117 {
+  background: #e720ff;
+  transform: translateX(102.27463px) translateY(140.76896px) scale(0.20984);
+  animation-delay: -1029ms;
+}
+
+#particle118 {
+  background: #6303ff;
+  transform: translateX(203.4155px) translateY(168.27993px) scale(0.01771);
+  animation-delay: -250ms;
+}
+
+#particle119 {
+  background: #8e0cff;
+  transform: translateX(28.19998px) translateY(-223.22581px) scale(0.07612);
+  animation-delay: -2334ms;
+}
+
+#particle120 {
+  background: #ff41a6;
+  transform: translateX(85.28933px) translateY(80.09201px) scale(0.42499);
+  animation-delay: -1060ms;
+}
+
+#particle121 {
+  background: #7e08ff;
+  transform: translateX(-29.70398px) translateY(-235.13118px) scale(0.05391);
+  animation-delay: -1598ms;
+}
+
+#particle122 {
+  background: #aa12ff;
+  transform: translateX(12.99764px) translateY(-206.59153px) scale(0.11623);
+  animation-delay: -1834ms;
+}
+
+#particle123 {
+  background: #ed22ff;
+  transform: translateX(-167.97112px) translateY(-32.0422px) scale(0.21957);
+  animation-delay: -2270ms;
+}
+
+#particle124 {
+  background: #5700ff;
+  transform: translateX(-243.16644px) translateY(154.31812px) scale(0.00197);
+  animation-delay: -2231ms;
+}
+
+#particle125 {
+  background: #ba15ff;
+  transform: translateX(-95.38723px) translateY(-173.50872px) scale(0.13926);
+  animation-delay: -1990ms;
+}
+
+#particle126 {
+  background: #930dff;
+  transform: translateX(-13.9395px) translateY(-221.56193px) scale(0.08225);
+  animation-delay: -160ms;
+}
+
+#particle127 {
+  background: #ff4f81;
+  transform: translateX(-96px) translateY(0px) scale(0.51825);
+  animation-delay: -1757ms;
+}
+
+#particle128 {
+  background: #ed22ff;
+  transform: translateX(-167.97112px) translateY(-32.0422px) scale(0.21957);
+  animation-delay: -2251ms;
+}
+
+#particle129 {
+  background: #ff30db;
+  transform: translateX(44.49845px) translateY(-136.95214px) scale(0.31545);
+  animation-delay: -337ms;
+}
+
+#particle130 {
+  background: #6804ff;
+  transform: translateX(-138.24331px) translateY(217.8366px) scale(0.02408);
+  animation-delay: -1761ms;
+}
+
+#particle131 {
+  background: #e11fff;
+  transform: translateX(-11.11392px) translateY(176.65073px) scale(0.20032);
+  animation-delay: -1747ms;
+}
+
+#particle132 {
+  background: #5600ff;
+  transform: translateX(-245.69943px) translateY(-155.9256px) scale(0.00111);
+  animation-delay: -1279ms;
+}
+
+#particle133 {
+  background: #5600ff;
+  transform: translateX(0px) translateY(291px) scale(0.00111);
+  animation-delay: -324ms;
+}
+
+#particle134 {
+  background: #5500ff;
+  transform: translateX(-141.63558px) translateY(-257.63416px) scale(0.00049);
+  animation-delay: -305ms;
+}
+
+#particle135 {
+  background: #aa12ff;
+  transform: translateX(-12.99764px) translateY(206.59153px) scale(0.11623);
+  animation-delay: -213ms;
+}
+
+#particle136 {
+  background: #6804ff;
+  transform: translateX(16.19995px) translateY(-257.4909px) scale(0.02408);
+  animation-delay: -1508ms;
+}
+
+#particle137 {
+  background: #8a0bff;
+  transform: translateX(-227.55009px) translateY(-14.31624px) scale(0.07022);
+  animation-delay: -312ms;
+}
+
+#particle138 {
+  background: #ffb77a;
+  transform: translateX(31.55166px) translateY(-22.92362px) scale(0.79721);
+  animation-delay: -1745ms;
+}
+
+#particle139 {
+  background: #aa12ff;
+  transform: translateX(-167.46652px) translateY(-121.67155px) scale(0.11623);
+  animation-delay: -772ms;
+}
+
+#particle140 {
+  background: #ff4f81;
+  transform: translateX(-61.1927px) translateY(-73.96927px) scale(0.51825);
+  animation-delay: -727ms;
+}
+
+#particle141 {
+  background: #ff2bed;
+  transform: translateX(117.88853px) translateY(-97.52587px) scale(0.28187);
+  animation-delay: -2477ms;
+}
+
+#particle142 {
+  background: #6a04ff;
+  transform: translateX(250.48325px) translateY(47.78224px) scale(0.02763);
+  animation-delay: -1682ms;
+}
+
+#particle143 {
+  background: #b514ff;
+  transform: translateX(25.19198px) translateY(-199.41505px) scale(0.13137);
+  animation-delay: -1713ms;
+}
+
+#particle144 {
+  background: #5f02ff;
+  transform: translateX(261.51745px) translateY(67.14627px) scale(0.01231);
+  animation-delay: -2068ms;
+}
+
+#particle145 {
+  background: #7707ff;
+  transform: translateX(60.43164px) translateY(-235.36571px) scale(0.04421);
+  animation-delay: -833ms;
+}
+
+#particle146 {
+  background: #5700ff;
+  transform: translateX(230.56984px) translateY(-167.5188px) scale(0.00308);
+  animation-delay: -880ms;
+}
+
+#particle147 {
+  background: #5600ff;
+  transform: translateX(285.84559px) translateY(-54.52796px) scale(0.00111);
+  animation-delay: -1774ms;
+}
+
+#particle148 {
+  background: #7e08ff;
+  transform: translateX(-236.53233px) translateY(14.88135px) scale(0.05391);
+  animation-delay: -1565ms;
+}
+
+#particle149 {
+  background: #f925ff;
+  transform: translateX(139.31411px) translateY(88.41142px) scale(0.23959);
+  animation-delay: -1892ms;
+}
+
+#particle150 {
+  background: #5f02ff;
+  transform: translateX(-218.43459px) translateY(-158.70202px) scale(0.01231);
+  animation-delay: -1377ms;
+}
+
+#particle151 {
+  background: #ff7465;
+  transform: translateX(-20.39512px) translateY(62.76973px) scale(0.66126);
+  animation-delay: -1635ms;
+}
+
+#particle152 {
+  background: #7306ff;
+  transform: translateX(-156.8063px) translateY(-189.54626px) scale(0.03971);
+  animation-delay: -2006ms;
+}
+
+#particle153 {
+  background: #ca19ff;
+  transform: translateX(175.72776px) translateY(-69.57554px) scale(0.16419);
+  animation-delay: -2159ms;
+}
+
+#particle154 {
+  background: #ffd786;
+  transform: translateX(-10.2187px) translateY(-21.71585px) scale(0.87467);
+  animation-delay: -633ms;
+}
+
+#particle155 {
+  background: #ff4796;
+  transform: translateX(106.08702px) translateY(20.23718px) scale(0.46417);
+  animation-delay: -779ms;
+}
+
+#particle156 {
+  background: #ba15ff;
+  transform: translateX(49.2406px) translateY(-191.77947px) scale(0.13926);
+  animation-delay: -2010ms;
+}
+
+#particle157 {
+  background: #5500ff;
+  transform: translateX(0px) translateY(297px) scale(0.00012);
+  animation-delay: -552ms;
+}
+
+#particle158 {
+  background: #e720ff;
+  transform: translateX(119.1112px) translateY(-126.84054px) scale(0.20984);
+  animation-delay: -1261ms;
+}
+
+#particle159 {
+  background: #ffa273;
+  transform: translateX(32.85826px) translateY(34.99049px) scale(0.75131);
+  animation-delay: -322ms;
+}
+
+#particle160 {
+  background: #5500ff;
+  transform: translateX(141.63558px) translateY(257.63416px) scale(0.00049);
+  animation-delay: -845ms;
+}
+
+#particle161 {
+  background: #5a01ff;
+  transform: translateX(-149.49568px) translateY(-235.56749px) scale(0.00604);
+  animation-delay: -2145ms;
+}
+
+#particle162 {
+  background: #ba15ff;
+  transform: translateX(126.20995px) translateY(152.56162px) scale(0.13926);
+  animation-delay: -2450ms;
+}
+
+#particle163 {
+  background: #ff3fac;
+  transform: translateX(116.22998px) translateY(29.84279px) scale(0.41221);
+  animation-delay: -2269ms;
+}
+
+#particle164 {
+  background: #8e0cff;
+  transform: translateX(-164.01794px) translateY(154.0231px) scale(0.07612);
+  animation-delay: -2148ms;
+}
+
+#particle165 {
+  background: #5801ff;
+  transform: translateX(-238.10047px) translateY(151.10316px) scale(0.00444);
+  animation-delay: -1001ms;
+}
+
+#particle166 {
+  background: #9c0fff;
+  transform: translateX(-126.96161px) translateY(-174.74767px) scale(0.09517);
+  animation-delay: -2430ms;
+}
+
+#particle167 {
+  background: #ff7465;
+  transform: translateX(-45.18011px) translateY(48.11193px) scale(0.66126);
+  animation-delay: -95ms;
+}
+
+#particle168 {
+  background: #ff2fe1;
+  transform: translateX(-118.9255px) translateY(-86.40443px) scale(0.30409);
+  animation-delay: -1936ms;
+}
+
+#particle169 {
+  background: #ff2fe1;
+  transform: translateX(-45.4255px) translateY(139.80531px) scale(0.30409);
+  animation-delay: -910ms;
+}
+
+#particle170 {
+  background: #db1dff;
+  transform: translateX(151.97903px) translateY(-96.44882px) scale(0.19098);
+  animation-delay: -1711ms;
+}
+
+#particle171 {
+  background: #7e08ff;
+  transform: translateX(-14.88135px) translateY(236.53233px) scale(0.05391);
+  animation-delay: -2009ms;
+}
+
+#particle172 {
+  background: #5801ff;
+  transform: translateX(-281.44354px) translateY(17.70693px) scale(0.00444);
+  animation-delay: -238ms;
+}
+
+#particle173 {
+  background: #5500ff;
+  transform: translateX(-226.53089px) translateY(187.40265px) scale(0.00049);
+  animation-delay: -1986ms;
+}
+
+#particle174 {
+  background: #5801ff;
+  transform: translateX(-217.28473px) translateY(179.75357px) scale(0.00444);
+  animation-delay: -215ms;
+}
+
+#particle175 {
+  background: #db1dff;
+  transform: translateX(33.72864px) translateY(176.81171px) scale(0.19098);
+  animation-delay: -393ms;
+}
+
+#particle176 {
+  background: #860aff;
+  transform: translateX(202.42684px) translateY(-111.2851px) scale(0.06456);
+  animation-delay: -1537ms;
+}
+
+#particle177 {
+  background: #ff4f81;
+  transform: translateX(51.43937px) translateY(-81.05548px) scale(0.51825);
+  animation-delay: -364ms;
+}
+
+#particle178 {
+  background: #a010ff;
+  transform: translateX(52.97095px) translateY(-206.30821px) scale(0.10197);
+  animation-delay: -270ms;
+}
+
+#particle179 {
+  background: #ff5673;
+  transform: translateX(-51.13732px) translateY(-70.38448px) scale(0.56006);
+  animation-delay: -138ms;
+}
+
+#particle180 {
+  background: #6804ff;
+  transform: translateX(79.72638px) translateY(-245.37258px) scale(0.02408);
+  animation-delay: -271ms;
+}
+
+#particle181 {
+  background: #970eff;
+  transform: translateX(0px) translateY(219px) scale(0.0886);
+  animation-delay: -1209ms;
+}
+
+#particle182 {
+  background: #5500ff;
+  transform: translateX(228.84243px) translateY(-189.31492px) scale(0.00012);
+  animation-delay: -1254ms;
+}
+
+#particle183 {
+  background: #d01aff;
+  transform: translateX(-172.93843px) translateY(-68.47117px) scale(0.17292);
+  animation-delay: -2284ms;
+}
+
+#particle184 {
+  background: #ff846a;
+  transform: translateX(-46.23079px) translateY(38.24544px) scale(0.69098);
+  animation-delay: -1231ms;
+}
+
+#particle185 {
+  background: #bf17ff;
+  transform: translateX(104.48623px) translateY(164.64395px) scale(0.14736);
+  animation-delay: -512ms;
+}
+
+#particle186 {
+  background: #5801ff;
+  transform: translateX(135.85454px) translateY(-247.11848px) scale(0.00444);
+  animation-delay: -270ms;
+}
+
+#particle187 {
+  background: #7a07ff;
+  transform: translateX(59.68557px) translateY(232.45996px) scale(0.04894);
+  animation-delay: -594ms;
+}
+
+#particle188 {
+  background: #e11fff;
+  transform: translateX(164.57044px) translateY(65.15805px) scale(0.20032);
+  animation-delay: -609ms;
+}
+
+#particle189 {
+  background: #ff32d5;
+  transform: translateX(-26.42077px) translateY(-138.5025px) scale(0.32699);
+  animation-delay: -1392ms;
+}
+
+#particle190 {
+  background: #ed22ff;
+  transform: translateX(170.66257px) translateY(10.73718px) scale(0.21957);
+  animation-delay: -668ms;
+}
+
+#particle191 {
+  background: #b514ff;
+  transform: translateX(-199.41505px) translateY(-25.19198px) scale(0.13137);
+  animation-delay: -1921ms;
+}
+
+#particle192 {
+  background: #ff2fe1;
+  transform: translateX(93.70133px) translateY(113.26545px) scale(0.30409);
+  animation-delay: -2275ms;
+}
+
+#particle193 {
+  background: #9c0fff;
+  transform: translateX(79.5149px) translateY(-200.83172px) scale(0.09517);
+  animation-delay: -29ms;
+}
+
+#particle194 {
+  background: #5700ff;
+  transform: translateX(232.99689px) translateY(169.28215px) scale(0.00197);
+  animation-delay: -914ms;
+}
+
+#particle195 {
+  background: #ff26ff;
+  transform: translateX(68.97625px) translateY(146.58198px) scale(0.24989);
+  animation-delay: -2215ms;
+}
+
+#particle196 {
+  background: #9c0fff;
+  transform: translateX(212.17405px) translateY(40.47436px) scale(0.09517);
+  animation-delay: -290ms;
+}
+
+#particle197 {
+  background: #ffe78d;
+  transform: translateX(4.63525px) translateY(-14.26585px) scale(0.92154);
+  animation-delay: -2413ms;
+}
+
+#particle198 {
+  background: #7707ff;
+  transform: translateX(212.94252px) translateY(117.06614px) scale(0.04421);
+  animation-delay: -1463ms;
+}
+
+#particle199 {
+  background: #5600ff;
+  transform: translateX(-290.42578px) translateY(18.27204px) scale(0.00111);
+  animation-delay: -1178ms;
+}
+
+#particle200 {
+  background: #8209ff;
+  transform: translateX(197.57273px) translateY(-125.38347px) scale(0.05912);
+  animation-delay: -931ms;
+}
+
+#particle201 {
+  background: #5d02ff;
+  transform: translateX(210.35012px) translateY(174.01675px) scale(0.00998);
+  animation-delay: -682ms;
+}
+
+#particle202 {
+  background: #5d02ff;
+  transform: translateX(-210.35012px) translateY(-174.01675px) scale(0.00998);
+  animation-delay: -575ms;
+}
+
+#particle203 {
+  background: #7707ff;
+  transform: translateX(166.34495px) translateY(177.13938px) scale(0.04421);
+  animation-delay: -1809ms;
+}
+
+#particle204 {
+  background: #ed22ff;
+  transform: translateX(117.05756px) translateY(124.65364px) scale(0.21957);
+  animation-delay: -1134ms;
+}
+
+#particle205 {
+  background: #ff28f9;
+  transform: translateX(-93.45786px) translateY(-128.6337px) scale(0.26037);
+  animation-delay: -101ms;
+}
+
+#particle206 {
+  background: #d61cff;
+  transform: translateX(-148.05011px) translateY(-107.5647px) scale(0.18185);
+  animation-delay: -1252ms;
+}
+
+#particle207 {
+  background: #ff2bed;
+  transform: translateX(129.18217px) translateY(81.9815px) scale(0.28187);
+  animation-delay: -2432ms;
+}
+
+#particle208 {
+  background: #5a01ff;
+  transform: translateX(-118.79242px) translateY(-252.44675px) scale(0.00604);
+  animation-delay: -123ms;
+}
+
+#particle209 {
+  background: #7005ff;
+  transform: translateX(-91.66301px) translateY(-231.51434px) scale(0.03544);
+  animation-delay: -1181ms;
+}
+
+#particle210 {
+  background: #ff2bed;
+  transform: translateX(104.73571px) translateY(-111.5322px) scale(0.28187);
+  animation-delay: -551ms;
+}
+
+#particle211 {
+  background: #ff43a1;
+  transform: translateX(35.22794px) translateY(-108.42044px) scale(0.43792);
+  animation-delay: -351ms;
+}
+
+#particle212 {
+  background: #ff2fe1;
+  transform: translateX(-70.81779px) translateY(-128.81708px) scale(0.30409);
+  animation-delay: -1734ms;
+}
+
+#particle213 {
+  background: #f323ff;
+  transform: translateX(-147.21952px) translateY(-80.93462px) scale(0.22949);
+  animation-delay: -1783ms;
+}
+
+#particle214 {
+  background: #ff459b;
+  transform: translateX(-75.98473px) translateY(-80.91552px) scale(0.45098);
+  animation-delay: -887ms;
+}
+
+#particle215 {
+  background: #5700ff;
+  transform: translateX(-282.75269px) translateY(35.71997px) scale(0.00308);
+  animation-delay: -1571ms;
+}
+
+#particle216 {
+  background: #a010ff;
+  transform: translateX(65.82062px) translateY(202.57504px) scale(0.10197);
+  animation-delay: -1690ms;
+}
+
+#particle217 {
+  background: #ff936e;
+  transform: translateX(47.32056px) translateY(-26.0147px) scale(0.72101);
+  animation-delay: -1510ms;
+}
+
+#particle218 {
+  background: #6d05ff;
+  transform: translateX(-31.58397px) translateY(-250.0129px) scale(0.03142);
+  animation-delay: -1745ms;
+}
+
+#particle219 {
+  background: #7a07ff;
+  transform: translateX(102.18703px) translateY(217.15849px) scale(0.04894);
+  animation-delay: -1721ms;
+}
+
+#particle220 {
+  background: #9c0fff;
+  transform: translateX(-137.68358px) translateY(-166.43086px) scale(0.09517);
+  animation-delay: -309ms;
+}
+
+#particle221 {
+  background: #8e0cff;
+  transform: translateX(-173.36548px) translateY(-143.4204px) scale(0.07612);
+  animation-delay: -78ms;
+}
+
+#particle222 {
+  background: #5d02ff;
+  transform: translateX(-259.63843px) translateY(-84.36164px) scale(0.00998);
+  animation-delay: -2249ms;
+}
+
+#particle223 {
+  background: #8209ff;
+  transform: translateX(211.72953px) translateY(-99.63235px) scale(0.05912);
+  animation-delay: -1564ms;
+}
+
+#particle224 {
+  background: #930dff;
+  transform: translateX(-81.72365px) translateY(206.41038px) scale(0.08225);
+  animation-delay: -855ms;
+}
+
+#particle225 {
+  background: #ff29f3;
+  transform: translateX(75.15357px) translateY(-136.70384px) scale(0.27103);
+  animation-delay: -2253ms;
+}
+
+#particle226 {
+  background: #ff3db2;
+  transform: translateX(122.03011px) translateY(15.41599px) scale(0.39958);
+  animation-delay: -169ms;
+}
+
+#particle227 {
+  background: #ca19ff;
+  transform: translateX(91.05144px) translateY(165.62196px) scale(0.16419);
+  animation-delay: -2079ms;
+}
+
+#particle228 {
+  background: #5500ff;
+  transform: translateX(-271.44812px) translateY(-127.73379px) scale(0);
+  animation-delay: -1380ms;
+}
+
+#particle229 {
+  background: #ff26ff;
+  transform: translateX(40.28776px) translateY(-156.91047px) scale(0.24989);
+  animation-delay: -1854ms;
+}
+
+#particle230 {
+  background: #ff34cf;
+  transform: translateX(124.86613px) translateY(-58.75754px) scale(0.33869);
+  animation-delay: -2171ms;
+}
+
+#particle231 {
+  background: #5500ff;
+  transform: translateX(216.50368px) translateY(203.31049px) scale(0.00012);
+  animation-delay: -1103ms;
+}
+
+#particle232 {
+  background: #5d02ff;
+  transform: translateX(-186.88136px) translateY(199.00844px) scale(0.00998);
+  animation-delay: -898ms;
+}
+
+#particle233 {
+  background: #ff3bb7;
+  transform: translateX(74.06094px) translateY(101.93614px) scale(0.38709);
+  animation-delay: -2430ms;
+}
+
+#particle234 {
+  background: #e720ff;
+  transform: translateX(170.91798px) translateY(32.60435px) scale(0.20984);
+  animation-delay: -1683ms;
+}
+
+#particle235 {
+  background: #5500ff;
+  transform: translateX(108.22862px) translateY(-273.35429px) scale(0.00049);
+  animation-delay: -589ms;
+}
+
+#particle236 {
+  background: #6303ff;
+  transform: translateX(-81.58049px) translateY(-251.07892px) scale(0.01771);
+  animation-delay: -1181ms;
+}
+
+#particle237 {
+  background: #f925ff;
+  transform: translateX(149.29646px) translateY(-70.25358px) scale(0.23959);
+  animation-delay: -140ms;
+}
+
+#particle238 {
+  background: #6d05ff;
+  transform: translateX(-47.22009px) translateY(-247.53639px) scale(0.03142);
+  animation-delay: -1888ms;
+}
+
+#particle239 {
+  background: #7005ff;
+  transform: translateX(231.51434px) translateY(-91.66301px) scale(0.03544);
+  animation-delay: -718ms;
+}
+
+#particle240 {
+  background: #7e08ff;
+  transform: translateX(-14.88135px) translateY(236.53233px) scale(0.05391);
+  animation-delay: -1622ms;
+}
+
+#particle241 {
+  background: #ff41a6;
+  transform: translateX(-49.81618px) translateY(105.86477px) scale(0.42499);
+  animation-delay: -1959ms;
+}
+
+#particle242 {
+  background: #930dff;
+  transform: translateX(171.05394px) translateY(-141.50813px) scale(0.08225);
+  animation-delay: -713ms;
+}
+
+#particle243 {
+  background: #5700ff;
+  transform: translateX(-282.89873px) translateY(53.96582px) scale(0.00197);
+  animation-delay: -376ms;
+}
+
+#particle244 {
+  background: #5600ff;
+  transform: translateX(-36.47197px) translateY(-288.70538px) scale(0.00111);
+  animation-delay: -1051ms;
+}
+
+#particle245 {
+  background: #ff936e;
+  transform: translateX(-3.39069px) translateY(53.89344px) scale(0.72101);
+  animation-delay: -432ms;
+}
+
+#particle246 {
+  background: #ff2fe1;
+  transform: translateX(113.26545px) translateY(-93.70133px) scale(0.30409);
+  animation-delay: -2174ms;
+}
+
+#particle247 {
+  background: #ff7465;
+  transform: translateX(12.36717px) translateY(-64.83096px) scale(0.66126);
+  animation-delay: -2330ms;
+}
+
+#particle248 {
+  background: #7a07ff;
+  transform: translateX(-202.6387px) translateY(-128.59843px) scale(0.04894);
+  animation-delay: -1550ms;
+}
+
+#particle249 {
+  background: #6503ff;
+  transform: translateX(-96.08051px) translateY(242.67166px) scale(0.02078);
+  animation-delay: -735ms;
+}
+
+#particle250 {
+  background: #5d02ff;
+  transform: translateX(-273px) translateY(0px) scale(0.00998);
+  animation-delay: -1554ms;
+}
+
+#particle251 {
+  background: #5500ff;
+  transform: translateX(-284.76345px) translateY(-73.11483px) scale(0.00049);
+  animation-delay: -760ms;
+}
+
+#particle252 {
+  background: #6303ff;
+  transform: translateX(168.27993px) translateY(-203.4155px) scale(0.01771);
+  animation-delay: -911ms;
+}
+
+#particle253 {
+  background: #7306ff;
+  transform: translateX(228.72502px) translateY(-90.55864px) scale(0.03971);
+  animation-delay: -653ms;
+}
+
+#particle254 {
+  background: #5a01ff;
+  transform: translateX(-274.05814px) translateY(-52.27939px) scale(0.00604);
+  animation-delay: -103ms;
+}
+
+#particle255 {
+  background: #aa12ff;
+  transform: translateX(-150.89651px) translateY(-141.70125px) scale(0.11623);
+  animation-delay: -1346ms;
+}
+
+#particle256 {
+  background: #f323ff;
+  transform: translateX(-162.72197px) translateY(41.7799px) scale(0.22949);
+  animation-delay: -2218ms;
+}
+
+#particle257 {
+  background: #5a01ff;
+  transform: translateX(-203.38225px) translateY(-190.98864px) scale(0.00604);
+  animation-delay: -1326ms;
+}
+
+#particle258 {
+  background: #6503ff;
+  transform: translateX(242.67166px) translateY(-96.08051px) scale(0.02078);
+  animation-delay: -865ms;
+}
+
+#particle259 {
+  background: #ff6c63;
+  transform: translateX(33.241px) translateY(60.46516px) scale(0.64653);
+  animation-delay: -1113ms;
+}
+
+#particle260 {
+  background: #970eff;
+  transform: translateX(208.28138px) translateY(-67.67472px) scale(0.0886);
+  animation-delay: -1220ms;
+}
+
+#particle261 {
+  background: #7306ff;
+  transform: translateX(244.06022px) translateY(-30.83198px) scale(0.03971);
+  animation-delay: -200ms;
+}
+
+#particle262 {
+  background: #ed22ff;
+  transform: translateX(-62.9493px) translateY(158.99178px) scale(0.21957);
+  animation-delay: -1091ms;
+}
+
+#particle263 {
+  background: #d01aff;
+  transform: translateX(-176.89651px) translateY(-57.47716px) scale(0.17292);
+  animation-delay: -557ms;
+}
+
+#particle264 {
+  background: #5d02ff;
+  transform: translateX(-131.51875px) translateY(-239.23172px) scale(0.00998);
+  animation-delay: -831ms;
+}
+
+#particle265 {
+  background: #ff2bed;
+  transform: translateX(104.73571px) translateY(111.5322px) scale(0.28187);
+  animation-delay: -511ms;
+}
+
+#particle266 {
+  background: #ff29f3;
+  transform: translateX(99.43814px) translateY(-120.20007px) scale(0.27103);
+  animation-delay: -1684ms;
+}
+
+#particle267 {
+  background: #ff39bd;
+  transform: translateX(-99.39621px) translateY(-82.22769px) scale(0.37476);
+  animation-delay: -1880ms;
+}
+
+#particle268 {
+  background: #ff43a1;
+  transform: translateX(-108.42044px) translateY(-35.22794px) scale(0.43792);
+  animation-delay: -2191ms;
+}
+
+#particle269 {
+  background: #5700ff;
+  transform: translateX(167.5188px) translateY(-230.56984px) scale(0.00308);
+  animation-delay: -2489ms;
+}
+
+#particle270 {
+  background: #9c0fff;
+  transform: translateX(-137.68358px) translateY(166.43086px) scale(0.09517);
+  animation-delay: -75ms;
+}
+
+#particle271 {
+  background: #6804ff;
+  transform: translateX(0px) translateY(-258px) scale(0.02408);
+  animation-delay: -2029ms;
+}
+
+#particle272 {
+  background: #7707ff;
+  transform: translateX(-45.53366px) translateY(238.6958px) scale(0.04421);
+  animation-delay: -207ms;
+}
+
+#particle273 {
+  background: #ff6c63;
+  transform: translateX(-60.46516px) translateY(-33.241px) scale(0.64653);
+  animation-delay: -1141ms;
+}
+
+#particle274 {
+  background: #860aff;
+  transform: translateX(214.77837px) translateY(-85.03677px) scale(0.06456);
+  animation-delay: -330ms;
+}
+
+#particle275 {
+  background: #5700ff;
+  transform: translateX(207.75606px) translateY(195.09593px) scale(0.00308);
+  animation-delay: -730ms;
+}
+
+#particle276 {
+  background: #5500ff;
+  transform: translateX(231.15397px) translateY(191.2272px) scale(0);
+  animation-delay: -955ms;
+}
+
+#particle277 {
+  background: #7005ff;
+  transform: translateX(106.01904px) translateY(225.30194px) scale(0.03544);
+  animation-delay: -1055ms;
+}
+
+#particle278 {
+  background: #5700ff;
+  transform: translateX(-257.87571px) translateY(121.3471px) scale(0.00308);
+  animation-delay: -898ms;
+}
+
+#particle279 {
+  background: #ff3fac;
+  transform: translateX(76.49088px) translateY(92.46159px) scale(0.41221);
+  animation-delay: -879ms;
+}
+
+#particle280 {
+  background: #ff36c9;
+  transform: translateX(122.15165px) translateY(-57.4802px) scale(0.35055);
+  animation-delay: -509ms;
+}
+
+#particle281 {
+  background: #ff34cf;
+  transform: translateX(-17.29599px) translateY(136.91183px) scale(0.33869);
+  animation-delay: -2366ms;
+}
+
+#particle282 {
+  background: #ff32d5;
+  transform: translateX(-51.90556px) translateY(-131.09848px) scale(0.32699);
+  animation-delay: -990ms;
+}
+
+#particle283 {
+  background: #ff4796;
+  transform: translateX(-26.85851px) translateY(104.60698px) scale(0.46417);
+  animation-delay: -819ms;
+}
+
+#particle284 {
+  background: #ff9b71;
+  transform: translateX(-21.71474px) translateY(-46.14618px) scale(0.73613);
+  animation-delay: -2440ms;
+}
+
+#particle285 {
+  background: #5500ff;
+  transform: translateX(-248.23241px) translateY(-157.53308px) scale(0.00049);
+  animation-delay: -1921ms;
+}
+
+#particle286 {
+  background: #e720ff;
+  transform: translateX(-168.53347px) translateY(43.27204px) scale(0.20984);
+  animation-delay: -2275ms;
+}
+
+#particle287 {
+  background: #a010ff;
+  transform: translateX(125.19826px) translateY(172.32062px) scale(0.10197);
+  animation-delay: -75ms;
+}
+
+#particle288 {
+  background: #ff26ff;
+  transform: translateX(124.82315px) translateY(-103.26269px) scale(0.24989);
+  animation-delay: -225ms;
+}
+
+#particle289 {
+  background: #ffa273;
+  transform: translateX(25.71969px) translateY(-40.52774px) scale(0.75131);
+  animation-delay: -2387ms;
+}
+
+#particle290 {
+  background: #6303ff;
+  transform: translateX(-263.47906px) translateY(16.5767px) scale(0.01771);
+  animation-delay: -52ms;
+}
+
+#particle291 {
+  background: #8e0cff;
+  transform: translateX(189.97378px) translateY(120.56103px) scale(0.07612);
+  animation-delay: -1309ms;
+}
+
+#particle292 {
+  background: #e11fff;
+  transform: translateX(-171.43922px) translateY(-44.01811px) scale(0.20032);
+  animation-delay: -1746ms;
+}
+
+#particle293 {
+  background: #8a0bff;
+  transform: translateX(28.57598px) translateY(226.20215px) scale(0.07022);
+  animation-delay: -513ms;
+}
+
+#particle294 {
+  background: #ffca81;
+  transform: translateX(-29.76344px) translateY(-3.76px) scale(0.84357);
+  animation-delay: -747ms;
+}
+
+#particle295 {
+  background: #ffa273;
+  transform: translateX(-28.21369px) translateY(38.83282px) scale(0.75131);
+  animation-delay: -906ms;
+}
+
+#particle296 {
+  background: #ff30db;
+  transform: translateX(-9.04183px) translateY(143.71585px) scale(0.31545);
+  animation-delay: -224ms;
+}
+
+#particle297 {
+  background: #6804ff;
+  transform: translateX(245.37258px) translateY(79.72638px) scale(0.02408);
+  animation-delay: -1061ms;
+}
+
+#particle298 {
+  background: #e11fff;
+  transform: translateX(121.16484px) translateY(129.02745px) scale(0.20032);
+  animation-delay: -1731ms;
+}
+
+#particle299 {
+  background: #d61cff;
+  transform: translateX(-98.0563px) translateY(154.51201px) scale(0.18185);
+  animation-delay: -1196ms;
+}
+
+#particle300 {
+  background: #ff7c67;
+  transform: translateX(-30.35048px) translateY(-55.20732px) scale(0.67608);
+  animation-delay: -2428ms;
+}
+
+#particle301 {
+  background: #ff4d86;
+  transform: translateX(-97.24644px) translateY(18.55075px) scale(0.50454);
+  animation-delay: -800ms;
+}
+
+#particle302 {
+  background: #ff4b8b;
+  transform: translateX(-100.1933px) translateY(19.11289px) scale(0.49096);
+  animation-delay: -2099ms;
+}
+
+#particle303 {
+  background: #ca19ff;
+  transform: translateX(-23.68798px) translateY(187.50968px) scale(0.16419);
+  animation-delay: -2200ms;
+}
+
+#particle304 {
+  background: #5600ff;
+  transform: translateX(-285.84559px) translateY(-54.52796px) scale(0.00111);
+  animation-delay: -1124ms;
+}
+
+#particle305 {
+  background: #5500ff;
+  transform: translateX(73.8609px) translateY(287.6692px) scale(0.00012);
+  animation-delay: -569ms;
+}
+
+#particle306 {
+  background: #bf17ff;
+  transform: translateX(48.49453px) translateY(-188.87372px) scale(0.14736);
+  animation-delay: -1899ms;
+}
+
+#particle307 {
+  background: #5f02ff;
+  transform: translateX(-227.96854px) translateY(144.67323px) scale(0.01231);
+  animation-delay: -1251ms;
+}
+
+#particle308 {
+  background: #ff36c9;
+  transform: translateX(57.4802px) translateY(-122.15165px) scale(0.35055);
+  animation-delay: -206ms;
+}
+
+#particle309 {
+  background: #5700ff;
+  transform: translateX(-183.57811px) translateY(221.90781px) scale(0.00197);
+  animation-delay: -1596ms;
+}
+
+#particle310 {
+  background: #6a04ff;
+  transform: translateX(-63.41592px) translateY(-246.98871px) scale(0.02763);
+  animation-delay: -567ms;
+}
+
+#particle311 {
+  background: #8a0bff;
+  transform: translateX(-83.9324px) translateY(-211.98904px) scale(0.07022);
+  animation-delay: -1800ms;
+}
+
+#particle312 {
+  background: #ff5a6a;
+  transform: translateX(15.17789px) translateY(79.56527px) scale(0.58849);
+  animation-delay: -1520ms;
+}
+
+#particle313 {
+  background: #ff517c;
+  transform: translateX(-39.59747px) translateY(84.14892px) scale(0.53207);
+  animation-delay: -1046ms;
+}
+
+#particle314 {
+  background: #ffa975;
+  transform: translateX(43.58624px) translateY(11.19104px) scale(0.76655);
+  animation-delay: -494ms;
+}
+
+#particle315 {
+  background: #5500ff;
+  transform: translateX(-143.08084px) translateY(-260.26308px) scale(0.00012);
+  animation-delay: -2435ms;
+}
+
+#particle316 {
+  background: #ff30db;
+  transform: translateX(-139.47598px) translateY(-35.81134px) scale(0.31545);
+  animation-delay: -888ms;
+}
+
+#particle317 {
+  background: #8e0cff;
+  transform: translateX(-42.1608px) translateY(-221.01463px) scale(0.07612);
+  animation-delay: -1885ms;
+}
+
+#particle318 {
+  background: #a010ff;
+  transform: translateX(155.27032px) translateY(145.80853px) scale(0.10197);
+  animation-delay: -411ms;
+}
+
+#particle319 {
+  background: #ed22ff;
+  transform: translateX(124.65364px) translateY(-117.05756px) scale(0.21957);
+  animation-delay: -2195ms;
+}
+
+#particle320 {
+  background: #970eff;
+  transform: translateX(-218.56785px) translateY(13.75112px) scale(0.0886);
+  animation-delay: -1317ms;
+}
+
+#particle321 {
+  background: #5500ff;
+  transform: translateX(-55.09011px) translateY(-288.79245px) scale(0.00049);
+  animation-delay: -1809ms;
+}
+
+#particle322 {
+  background: #e11fff;
+  transform: translateX(121.16484px) translateY(129.02745px) scale(0.20032);
+  animation-delay: -2302ms;
+}
+
+#particle323 {
+  background: #aa12ff;
+  transform: translateX(203.33346px) translateY(-38.78793px) scale(0.11623);
+  animation-delay: -2271ms;
+}
+
+#particle324 {
+  background: #8e0cff;
+  transform: translateX(225px) translateY(0px) scale(0.07612);
+  animation-delay: -155ms;
+}
+
+#particle325 {
+  background: #d01aff;
+  transform: translateX(-143.31546px) translateY(-118.56086px) scale(0.17292);
+  animation-delay: -1896ms;
+}
+
+#particle326 {
+  background: #c518ff;
+  transform: translateX(-188.59915px) translateY(35.97721px) scale(0.15567);
+  animation-delay: -510ms;
+}
+
+#particle327 {
+  background: #7306ff;
+  transform: translateX(46.0958px) translateY(241.64266px) scale(0.03971);
+  animation-delay: -1623ms;
+}
+
+#particle328 {
+  background: #6102ff;
+  transform: translateX(-156.93866px) translateY(-216.00754px) scale(0.01489);
+  animation-delay: -2410ms;
+}
+
+#particle329 {
+  background: #ff4d86;
+  transform: translateX(-83.58846px) translateY(53.04685px) scale(0.50454);
+  animation-delay: -2470ms;
+}
+
+#particle330 {
+  background: #6a04ff;
+  transform: translateX(252.98925px) translateY(31.95997px) scale(0.02763);
+  animation-delay: -1407ms;
+}
+
+#particle331 {
+  background: #ff8c6c;
+  transform: translateX(39.01919px) translateY(41.55121px) scale(0.70596);
+  animation-delay: -451ms;
+}
+
+#particle332 {
+  background: #7306ff;
+  transform: translateX(245.51458px) translateY(-15.44647px) scale(0.03971);
+  animation-delay: -1864ms;
+}
+
+#particle333 {
+  background: #d61cff;
+  transform: translateX(179.75857px) translateY(-34.29078px) scale(0.18185);
+  animation-delay: -202ms;
+}
+
+#particle334 {
+  background: #a511ff;
+  transform: translateX(13.18601px) translateY(-209.58561px) scale(0.10899);
+  animation-delay: -850ms;
+}
+
+#particle335 {
+  background: #ff517c;
+  transform: translateX(-63.66288px) translateY(67.79408px) scale(0.53207);
+  animation-delay: -1477ms;
+}
+
+#particle336 {
+  background: #7005ff;
+  transform: translateX(-210.23765px) translateY(133.42087px) scale(0.03544);
+  animation-delay: -2478ms;
+}
+
+#particle337 {
+  background: #7a07ff;
+  transform: translateX(-102.18703px) translateY(217.15849px) scale(0.04894);
+  animation-delay: -1645ms;
+}
+
+#particle338 {
+  background: #7a07ff;
+  transform: translateX(235.74894px) translateY(44.97152px) scale(0.04894);
+  animation-delay: -2109ms;
+}
+
+#particle339 {
+  background: #bf17ff;
+  transform: translateX(-24.43998px) translateY(-193.46237px) scale(0.14736);
+  animation-delay: -1559ms;
+}
+
+#particle340 {
+  background: #a010ff;
+  transform: translateX(145.80853px) translateY(155.27032px) scale(0.10197);
+  animation-delay: -807ms;
+}
+
+#particle341 {
+  background: #5500ff;
+  transform: translateX(-242.7051px) translateY(-176.33558px) scale(0);
+  animation-delay: -2408ms;
+}
+
+#particle342 {
+  background: #5a01ff;
+  transform: translateX(265.34477px) translateY(86.21574px) scale(0.00604);
+  animation-delay: -1731ms;
+}
+
+#particle343 {
+  background: #bf17ff;
+  transform: translateX(188.87372px) translateY(-48.49453px) scale(0.14736);
+  animation-delay: -1450ms;
+}
+
+#particle344 {
+  background: #5700ff;
+  transform: translateX(-88.99689px) translateY(-273.90428px) scale(0.00197);
+  animation-delay: -1356ms;
+}
+
+#particle345 {
+  background: #5a01ff;
+  transform: translateX(-276.8px) translateY(-34.96797px) scale(0.00604);
+  animation-delay: -640ms;
+}
+
+#particle346 {
+  background: #860aff;
+  transform: translateX(43.28508px) translateY(-226.90835px) scale(0.06456);
+  animation-delay: -786ms;
+}
+
+#particle347 {
+  background: #ff26ff;
+  transform: translateX(78.0441px) translateY(-141.96168px) scale(0.24989);
+  animation-delay: -851ms;
+}
+
+#particle348 {
+  background: #5700ff;
+  transform: translateX(257.87571px) translateY(-121.3471px) scale(0.00308);
+  animation-delay: -1724ms;
+}
+
+#particle349 {
+  background: #5700ff;
+  transform: translateX(-152.71064px) translateY(240.63346px) scale(0.00308);
+  animation-delay: -447ms;
+}
+
+#particle350 {
+  background: #5d02ff;
+  transform: translateX(-17.14181px) translateY(-272.4613px) scale(0.00998);
+  animation-delay: -406ms;
+}
+
+#particle351 {
+  background: #6503ff;
+  transform: translateX(-32.71197px) translateY(258.94194px) scale(0.02078);
+  animation-delay: -1729ms;
+}
+
+#particle352 {
+  background: #ff2de7;
+  transform: translateX(-95.6136px) translateY(115.57699px) scale(0.29289);
+  animation-delay: -1997ms;
+}
+
+#particle353 {
+  background: #ff5a6a;
+  transform: translateX(-25.03038px) translateY(-77.03558px) scale(0.58849);
+  animation-delay: -2485ms;
+}
+
+#particle354 {
+  background: #7e08ff;
+  transform: translateX(172.76556px) translateY(162.23766px) scale(0.05391);
+  animation-delay: -1904ms;
+}
+
+#particle355 {
+  background: #970eff;
+  transform: translateX(-159.64413px) translateY(149.91582px) scale(0.0886);
+  animation-delay: -1915ms;
+}
+
+#particle356 {
+  background: #5b01ff;
+  transform: translateX(-68.63841px) translateY(267.32895px) scale(0.00789);
+  animation-delay: -402ms;
+}
+
+#particle357 {
+  background: #9c0fff;
+  transform: translateX(13.56275px) translateY(-215.57377px) scale(0.09517);
+  animation-delay: -1755ms;
+}
+
+#particle358 {
+  background: #5a01ff;
+  transform: translateX(-190.98864px) translateY(-203.38225px) scale(0.00604);
+  animation-delay: -1050ms;
+}
+
+#particle359 {
+  background: #5600ff;
+  transform: translateX(-291px) translateY(0px) scale(0.00111);
+  animation-delay: -2377ms;
+}
+
+#particle360 {
+  background: #ff2de7;
+  transform: translateX(-102.68207px) translateY(109.34529px) scale(0.29289);
+  animation-delay: -2172ms;
+}
+
+#particle361 {
+  background: #ff36c9;
+  transform: translateX(65.03675px) translateY(-118.3014px) scale(0.35055);
+  animation-delay: -871ms;
+}
+
+#particle362 {
+  background: #ff37c3;
+  transform: translateX(131.73953px) translateY(-8.28835px) scale(0.36258);
+  animation-delay: -2031ms;
+}
+
+#particle363 {
+  background: #ff34cf;
+  transform: translateX(73.9441px) translateY(-116.51725px) scale(0.33869);
+  animation-delay: -2062ms;
+}
+
+#particle364 {
+  background: #ba15ff;
+  transform: translateX(72.88866px) translateY(184.09574px) scale(0.13926);
+  animation-delay: -594ms;
+}
+
+#particle365 {
+  background: #5500ff;
+  transform: translateX(174.57222px) translateY(-240.27805px) scale(0.00012);
+  animation-delay: -34ms;
+}
+
+#particle366 {
+  background: #ffbe7c;
+  transform: translateX(-8.95284px) translateY(34.86899px) scale(0.81262);
+  animation-delay: -2239ms;
+}
+
+#particle367 {
+  background: #ff29f3;
+  transform: translateX(153.23681px) translateY(-29.23149px) scale(0.27103);
+  animation-delay: -1397ms;
+}
+
+#particle368 {
+  background: #970eff;
+  transform: translateX(-212.11971px) translateY(54.46309px) scale(0.0886);
+  animation-delay: -2256ms;
+}
+
+#particle369 {
+  background: #5500ff;
+  transform: translateX(90.851px) translateY(279.61062px) scale(0.00049);
+  animation-delay: -106ms;
+}
+
+#particle370 {
+  background: #ff4f81;
+  transform: translateX(-84.12544px) translateY(46.24835px) scale(0.51825);
+  animation-delay: -2179ms;
+}
+
+#particle371 {
+  background: #aa12ff;
+  transform: translateX(192.46373px) translateY(76.20178px) scale(0.11623);
+  animation-delay: -1781ms;
+}
+
+#particle372 {
+  background: #8a0bff;
+  transform: translateX(-145.33267px) translateY(-175.67702px) scale(0.07022);
+  animation-delay: -553ms;
+}
+
+#particle373 {
+  background: #930dff;
+  transform: translateX(-187.4408px) translateY(118.95355px) scale(0.08225);
+  animation-delay: -123ms;
+}
+
+#particle374 {
+  background: #5700ff;
+  transform: translateX(264.9863px) translateY(-104.9155px) scale(0.00308);
+  animation-delay: -1013ms;
+}
+
+#particle375 {
+  background: #ff4d86;
+  transform: translateX(-98.80465px) translateY(6.21626px) scale(0.50454);
+  animation-delay: -257ms;
+}
+
+#particle376 {
+  background: #6804ff;
+  transform: translateX(-109.85106px) translateY(233.44538px) scale(0.02408);
+  animation-delay: -1781ms;
+}
+
+#particle377 {
+  background: #6102ff;
+  transform: translateX(194.63462px) translateY(182.77408px) scale(0.01489);
+  animation-delay: -778ms;
+}
+
+#particle378 {
+  background: #8e0cff;
+  transform: translateX(-82.82802px) translateY(209.19971px) scale(0.07612);
+  animation-delay: -1213ms;
+}
+
+#particle379 {
+  background: #5801ff;
+  transform: translateX(-87.14279px) translateY(268.19794px) scale(0.00444);
+  animation-delay: -795ms;
+}
+
+#particle380 {
+  background: #930dff;
+  transform: translateX(-81.72365px) translateY(206.41038px) scale(0.08225);
+  animation-delay: -2022ms;
+}
+
+#particle381 {
+  background: #ff32d5;
+  transform: translateX(108.64237px) translateY(89.87678px) scale(0.32699);
+  animation-delay: -997ms;
+}
+
+#particle382 {
+  background: #ff459b;
+  transform: translateX(-53.47466px) translateY(-97.27004px) scale(0.45098);
+  animation-delay: -102ms;
+}
+
+#particle383 {
+  background: #7005ff;
+  transform: translateX(158.71857px) translateY(191.8578px) scale(0.03544);
+  animation-delay: -2272ms;
+}
+
+#particle384 {
+  background: #e11fff;
+  transform: translateX(173.86484px) translateY(-33.16649px) scale(0.20032);
+  animation-delay: -1576ms;
+}
+
+#particle385 {
+  background: #ff5e62;
+  transform: translateX(71.32924px) translateY(-23.17627px) scale(0.61732);
+  animation-delay: -1913ms;
+}
+
+#particle386 {
+  background: #5d02ff;
+  transform: translateX(160.46537px) translateY(-220.86164px) scale(0.00998);
+  animation-delay: -2009ms;
+}
+
+#particle387 {
+  background: #ff3fac;
+  transform: translateX(15.03999px) translateY(-119.05376px) scale(0.41221);
+  animation-delay: -2028ms;
+}
+
+#particle388 {
+  background: #5700ff;
+  transform: translateX(138.74506px) translateY(252.37632px) scale(0.00197);
+  animation-delay: -1744ms;
+}
+
+#particle389 {
+  background: #ca19ff;
+  transform: translateX(185.65229px) translateY(-35.41507px) scale(0.16419);
+  animation-delay: -1692ms;
+}
+
+#particle390 {
+  background: #6a04ff;
+  transform: translateX(-185.887px) translateY(174.55951px) scale(0.02763);
+  animation-delay: -1970ms;
+}
+
+#particle391 {
+  background: #5f02ff;
+  transform: translateX(-269.46722px) translateY(16.95344px) scale(0.01231);
+  animation-delay: -1838ms;
+}
+
+#particle392 {
+  background: #ff28f9;
+  transform: translateX(-147.83446px) translateY(58.5318px) scale(0.26037);
+  animation-delay: -822ms;
+}
+
+#particle393 {
+  background: #ed22ff;
+  transform: translateX(82.37988px) translateY(149.84844px) scale(0.21957);
+  animation-delay: -549ms;
+}
+
+#particle394 {
+  background: #ff2de7;
+  transform: translateX(-148.81721px) translateY(-18.79999px) scale(0.29289);
+  animation-delay: -1949ms;
+}
+
+#particle395 {
+  background: #6804ff;
+  transform: translateX(138.24331px) translateY(-217.8366px) scale(0.02408);
+  animation-delay: -2469ms;
+}
+
+#particle396 {
+  background: #d01aff;
+  transform: translateX(-89.60618px) translateY(162.99304px) scale(0.17292);
+  animation-delay: -2075ms;
+}
+
+#particle397 {
+  background: #ff37c3;
+  transform: translateX(-119.43717px) translateY(56.20287px) scale(0.36258);
+  animation-delay: -1034ms;
+}
+
+#particle398 {
+  background: #5b01ff;
+  transform: translateX(201.19534px) translateY(-188.935px) scale(0.00789);
+  animation-delay: -906ms;
+}
+
+#particle399 {
+  background: #6503ff;
+  transform: translateX(96.08051px) translateY(-242.67166px) scale(0.02078);
+  animation-delay: -646ms;
+}
+
+#particle400 {
+  background: #5f02ff;
+  transform: translateX(-236.6028px) translateY(130.07349px) scale(0.01231);
+  animation-delay: -56ms;
+}
+
+#particle401 {
+  background: #a010ff;
+  transform: translateX(-135.77131px) translateY(164.11932px) scale(0.10197);
+  animation-delay: -2327ms;
+}
+
+#particle402 {
+  background: #5500ff;
+  transform: translateX(-282.46379px) translateY(91.77805px) scale(0.00012);
+  animation-delay: -797ms;
+}
+
+#particle403 {
+  background: #5b01ff;
+  transform: translateX(147.8882px) translateY(233.03451px) scale(0.00789);
+  animation-delay: -79ms;
+}
+
+#particle404 {
+  background: #5a01ff;
+  transform: translateX(17.51855px) translateY(-278.44946px) scale(0.00604);
+  animation-delay: -1133ms;
+}
+
+#particle405 {
+  background: #7005ff;
+  transform: translateX(-46.65795px) translateY(-244.58953px) scale(0.03544);
+  animation-delay: -1815ms;
+}
+
+#particle406 {
+  background: #7707ff;
+  transform: translateX(0px) translateY(-243px) scale(0.04421);
+  animation-delay: -253ms;
+}
+
+#particle407 {
+  background: #5a01ff;
+  transform: translateX(-235.56749px) translateY(149.49568px) scale(0.00604);
+  animation-delay: -1859ms;
+}
+
+#particle408 {
+  background: #6d05ff;
+  transform: translateX(212.77064px) translateY(135.02835px) scale(0.03142);
+  animation-delay: -1444ms;
+}
+
+#particle409 {
+  background: #5500ff;
+  transform: translateX(-271.44812px) translateY(127.73379px) scale(0);
+  animation-delay: -2323ms;
+}
+
+#particle410 {
+  background: #7e08ff;
+  transform: translateX(-73.23703px) translateY(-225.40039px) scale(0.05391);
+  animation-delay: -1951ms;
+}
+
+#particle411 {
+  background: #5f02ff;
+  transform: translateX(227.96854px) translateY(144.67323px) scale(0.01231);
+  animation-delay: -330ms;
+}
+
+#particle412 {
+  background: #5600ff;
+  transform: translateX(-199.20321px) translateY(-212.12987px) scale(0.00111);
+  animation-delay: -94ms;
+}
+
+#particle413 {
+  background: #ff28f9;
+  transform: translateX(-115.90601px) translateY(-108.84299px) scale(0.26037);
+  animation-delay: -786ms;
+}
+
+#particle414 {
+  background: #ffe28b;
+  transform: translateX(6.62624px) translateY(-16.73598px) scale(0.90589);
+  animation-delay: -1182ms;
+}
+
+#particle415 {
+  background: #9c0fff;
+  transform: translateX(216px) translateY(0px) scale(0.09517);
+  animation-delay: -2254ms;
+}
+
+#particle416 {
+  background: #6a04ff;
+  transform: translateX(-122.84719px) translateY(-223.4582px) scale(0.02763);
+  animation-delay: -1126ms;
+}
+
+#particle417 {
+  background: #5a01ff;
+  transform: translateX(-177.84129px) translateY(-214.97319px) scale(0.00604);
+  animation-delay: -1115ms;
+}
+
+#particle418 {
+  background: #ff5673;
+  transform: translateX(21.63602px) translateY(-84.26674px) scale(0.56006);
+  animation-delay: -921ms;
+}
+
+#particle419 {
+  background: #6503ff;
+  transform: translateX(111.1284px) translateY(236.15986px) scale(0.02078);
+  animation-delay: -658ms;
+}
+
+#particle420 {
+  background: #ff6c63;
+  transform: translateX(58.25863px) translateY(36.97205px) scale(0.64653);
+  animation-delay: -1821ms;
+}
+
+#particle421 {
+  background: #5a01ff;
+  transform: translateX(279px) translateY(0px) scale(0.00604);
+  animation-delay: -1917ms;
+}
+
+#particle422 {
+  background: #5600ff;
+  transform: translateX(-89.92395px) translateY(-276.75745px) scale(0.00111);
+  animation-delay: -335ms;
+}
+
+#particle423 {
+  background: #ff8c6c;
+  transform: translateX(-30.54213px) translateY(-48.12669px) scale(0.70596);
+  animation-delay: -1230ms;
+}
+
+#particle424 {
+  background: #5a01ff;
+  transform: translateX(163.99209px) translateY(225.71574px) scale(0.00604);
+  animation-delay: -1672ms;
+}
+
+#particle425 {
+  background: #5500ff;
+  transform: translateX(201.25685px) translateY(-214.31678px) scale(0.00049);
+  animation-delay: -468ms;
+}
+
+#particle426 {
+  background: #ff32d5;
+  transform: translateX(134.09897px) translateY(43.5714px) scale(0.32699);
+  animation-delay: -352ms;
+}
+
+#particle427 {
+  background: #c518ff;
+  transform: translateX(59.33126px) translateY(182.60285px) scale(0.15567);
+  animation-delay: -375ms;
+}
+
+#particle428 {
+  background: #ff3fac;
+  transform: translateX(-37.08204px) translateY(-114.12678px) scale(0.41221);
+  animation-delay: -1815ms;
+}
+
+#particle429 {
+  background: #6d05ff;
+  transform: translateX(194.16934px) translateY(-160.63085px) scale(0.03142);
+  animation-delay: -847ms;
+}
+
+#particle430 {
+  background: #ffa975;
+  transform: translateX(-19.16007px) translateY(40.71722px) scale(0.76655);
+  animation-delay: -1822ms;
+}
+
+#particle431 {
+  background: #ff2fe1;
+  transform: translateX(146.70993px) translateY(-9.23021px) scale(0.30409);
+  animation-delay: -1191ms;
+}
+
+#particle432 {
+  background: #860aff;
+  transform: translateX(43.28508px) translateY(-226.90835px) scale(0.06456);
+  animation-delay: -479ms;
+}
+
+#particle433 {
+  background: #5b01ff;
+  transform: translateX(233.03451px) translateY(147.8882px) scale(0.00789);
+  animation-delay: -2069ms;
+}
+
+#particle434 {
+  background: #5801ff;
+  transform: translateX(273.14045px) translateY(70.13055px) scale(0.00444);
+  animation-delay: -355ms;
+}
+
+#particle435 {
+  background: #5500ff;
+  transform: translateX(284.76345px) translateY(73.11483px) scale(0.00049);
+  animation-delay: -539ms;
+}
+
+#particle436 {
+  background: #ff4f81;
+  transform: translateX(95.81057px) translateY(-6.02789px) scale(0.51825);
+  animation-delay: -406ms;
+}
+
+#particle437 {
+  background: #6303ff;
+  transform: translateX(-222.90257px) translateY(141.45827px) scale(0.01771);
+  animation-delay: -603ms;
+}
+
+#particle438 {
+  background: #ff39bd;
+  transform: translateX(-75.8243px) translateY(104.36319px) scale(0.37476);
+  animation-delay: -2240ms;
+}
+
+#particle439 {
+  background: #8e0cff;
+  transform: translateX(82.82802px) translateY(-209.19971px) scale(0.07612);
+  animation-delay: -1823ms;
+}
+
+#particle440 {
+  background: #ff3bb7;
+  transform: translateX(114.00821px) translateY(-53.64819px) scale(0.38709);
+  animation-delay: -1650ms;
+}
+
+#particle441 {
+  background: #af13ff;
+  transform: translateX(75.09741px) translateY(-189.6744px) scale(0.12369);
+  animation-delay: -442ms;
+}
+
+#particle442 {
+  background: #7a07ff;
+  transform: translateX(-239.52641px) translateY(15.06972px) scale(0.04894);
+  animation-delay: -1525ms;
+}
+
+#particle443 {
+  background: #b514ff;
+  transform: translateX(191.16236px) translateY(-62.11242px) scale(0.13137);
+  animation-delay: -1773ms;
+}
+
+#particle444 {
+  background: #8e0cff;
+  transform: translateX(217.93121px) translateY(-55.95522px) scale(0.07612);
+  animation-delay: -1134ms;
+}
+
+#particle445 {
+  background: #ff29f3;
+  transform: translateX(-29.23149px) translateY(153.23681px) scale(0.27103);
+  animation-delay: -1356ms;
+}
+
+#particle446 {
+  background: #7707ff;
+  transform: translateX(241.08387px) translateY(30.45598px) scale(0.04421);
+  animation-delay: -777ms;
+}
+
+#particle447 {
+  background: #5d02ff;
+  transform: translateX(-116.23775px) translateY(247.01779px) scale(0.00998);
+  animation-delay: -1930ms;
+}
+
+#particle448 {
+  background: #aa12ff;
+  transform: translateX(141.70125px) translateY(-150.89651px) scale(0.11623);
+  animation-delay: -1840ms;
+}
+
+#particle449 {
+  background: #5d02ff;
+  transform: translateX(-264.4232px) translateY(67.89234px) scale(0.00998);
+  animation-delay: -1491ms;
+}
+
+#particle450 {
+  background: #ff26ff;
+  transform: translateX(10.17206px) translateY(-161.68033px) scale(0.24989);
+  animation-delay: -1799ms;
+}
+
+#particle451 {
+  background: #ff41a6;
+  transform: translateX(-85.28933px) translateY(-80.09201px) scale(0.42499);
+  animation-delay: -640ms;
+}
+
+#particle452 {
+  background: #7005ff;
+  transform: translateX(-15.63484px) translateY(-248.50866px) scale(0.03544);
+  animation-delay: -2241ms;
+}
+
+#particle453 {
+  background: #7005ff;
+  transform: translateX(119.95666px) translateY(-218.20036px) scale(0.03544);
+  animation-delay: -15ms;
+}
+
+#particle454 {
+  background: #ff3bb7;
+  transform: translateX(-126px) translateY(0px) scale(0.38709);
+  animation-delay: -137ms;
+}
+
+#particle455 {
+  background: #5f02ff;
+  transform: translateX(-270px) translateY(0px) scale(0.01231);
+  animation-delay: -52ms;
+}
+
+#particle456 {
+  background: #ff37c3;
+  transform: translateX(-40.79024px) translateY(-125.53946px) scale(0.36258);
+  animation-delay: -1672ms;
+}
+
+#particle457 {
+  background: #5b01ff;
+  transform: translateX(17.33018px) translateY(275.45538px) scale(0.00789);
+  animation-delay: -1538ms;
+}
+
+#particle458 {
+  background: #db1dff;
+  transform: translateX(86.71566px) translateY(-157.7352px) scale(0.19098);
+  animation-delay: -1118ms;
+}
+
+#particle459 {
+  background: #ff34cf;
+  transform: translateX(138px) translateY(0px) scale(0.33869);
+  animation-delay: -429ms;
+}
+
+#particle460 {
+  background: #bf17ff;
+  transform: translateX(164.64395px) translateY(-104.48623px) scale(0.14736);
+  animation-delay: -1438ms;
+}
+
+#particle461 {
+  background: #5d02ff;
+  transform: translateX(-51.1551px) translateY(268.16442px) scale(0.00998);
+  animation-delay: -853ms;
+}
+
+#particle462 {
+  background: #e720ff;
+  transform: translateX(64.05367px) translateY(-161.78111px) scale(0.20984);
+  animation-delay: -1652ms;
+}
+
+#particle463 {
+  background: #a010ff;
+  transform: translateX(114.13111px) translateY(179.84185px) scale(0.10197);
+  animation-delay: -1335ms;
+}
+
+#particle464 {
+  background: #6102ff;
+  transform: translateX(-194.63462px) translateY(-182.77408px) scale(0.01489);
+  animation-delay: -853ms;
+}
+
+#particle465 {
+  background: #c518ff;
+  transform: translateX(35.97721px) translateY(188.59915px) scale(0.15567);
+  animation-delay: -66ms;
+}
+
+#particle466 {
+  background: #a010ff;
+  transform: translateX(-26.69598px) translateY(211.32043px) scale(0.10197);
+  animation-delay: -627ms;
+}
+
+#particle467 {
+  background: #5500ff;
+  transform: translateX(-231.15397px) translateY(-191.2272px) scale(0);
+  animation-delay: -285ms;
+}
+
+#particle468 {
+  background: #5500ff;
+  transform: translateX(-297px) translateY(0px) scale(0.00012);
+  animation-delay: -2236ms;
+}
+
+#particle469 {
+  background: #ba15ff;
+  transform: translateX(49.2406px) translateY(-191.77947px) scale(0.13926);
+  animation-delay: -856ms;
+}
+
+#particle470 {
+  background: #e720ff;
+  transform: translateX(157.43991px) translateY(-74.0856px) scale(0.20984);
+  animation-delay: -86ms;
+}
+
+#particle471 {
+  background: #5d02ff;
+  transform: translateX(-67.89234px) translateY(-264.4232px) scale(0.00998);
+  animation-delay: -635ms;
+}
+
+#particle472 {
+  background: #5801ff;
+  transform: translateX(120.06976px) translateY(-255.16123px) scale(0.00444);
+  animation-delay: -2268ms;
+}
+
+#particle473 {
+  background: #7005ff;
+  transform: translateX(225.30194px) translateY(-106.01904px) scale(0.03544);
+  animation-delay: -291ms;
+}
+
+#particle474 {
+  background: #ff3fac;
+  transform: translateX(-22.48576px) translateY(117.87447px) scale(0.41221);
+  animation-delay: -1493ms;
+}
+
+#particle475 {
+  background: #7707ff;
+  transform: translateX(154.89403px) translateY(-187.23472px) scale(0.04421);
+  animation-delay: -741ms;
+}
+
+#particle476 {
+  background: #7707ff;
+  transform: translateX(-103.46437px) translateY(219.87297px) scale(0.04421);
+  animation-delay: -1339ms;
+}
+
+#particle477 {
+  background: #8a0bff;
+  transform: translateX(-70.45587px) translateY(-216.84089px) scale(0.07022);
+  animation-delay: -1441ms;
+}
+
+#particle478 {
+  background: #ff37c3;
+  transform: translateX(96.22386px) translateY(90.36022px) scale(0.36258);
+  animation-delay: -120ms;
+}
+
+#particle479 {
+  background: #ff29f3;
+  transform: translateX(-151.09897px) translateY(38.79562px) scale(0.27103);
+  animation-delay: -1862ms;
+}
+
+#particle480 {
+  background: #6804ff;
+  transform: translateX(-124.29245px) translateY(226.08712px) scale(0.02408);
+  animation-delay: -2274ms;
+}
+
+#particle481 {
+  background: #970eff;
+  transform: translateX(-212.11971px) translateY(-54.46309px) scale(0.0886);
+  animation-delay: -1045ms;
+}
+
+#particle482 {
+  background: #6804ff;
+  transform: translateX(109.85106px) translateY(-233.44538px) scale(0.02408);
+  animation-delay: -2491ms;
+}
+
+#particle483 {
+  background: #e720ff;
+  transform: translateX(-21.80798px) translateY(-172.62796px) scale(0.20984);
+  animation-delay: -2454ms;
+}
+
+#particle484 {
+  background: #ff2bed;
+  transform: translateX(38.04955px) translateY(-148.19322px) scale(0.28187);
+  animation-delay: -545ms;
+}
+
+#particle485 {
+  background: #ff37c3;
+  transform: translateX(101.70775px) translateY(-84.13997px) scale(0.36258);
+  animation-delay: -600ms;
+}
+
+#particle486 {
+  background: #af13ff;
+  transform: translateX(-165.03947px) translateY(-119.90819px) scale(0.12369);
+  animation-delay: -141ms;
+}
+
+#particle487 {
+  background: #ff28f9;
+  transform: translateX(-19.92798px) translateY(157.74624px) scale(0.26037);
+  animation-delay: -563ms;
+}
+
+#particle488 {
+  background: #5600ff;
+  transform: translateX(276.75745px) translateY(89.92395px) scale(0.00111);
+  animation-delay: -2167ms;
+}
+
+#particle489 {
+  background: #db1dff;
+  transform: translateX(-44.76418px) translateY(174.34497px) scale(0.19098);
+  animation-delay: -1121ms;
+}
+
+#particle490 {
+  background: #a010ff;
+  transform: translateX(211.32043px) translateY(26.69598px) scale(0.10197);
+  animation-delay: -1995ms;
+}
+
+#particle491 {
+  background: #5600ff;
+  transform: translateX(107.12424px) translateY(270.56496px) scale(0.00111);
+  animation-delay: -1915ms;
+}
+
+#particle492 {
+  background: #860aff;
+  transform: translateX(-186.88293px) translateY(-135.77839px) scale(0.06456);
+  animation-delay: -568ms;
+}
+
+#particle493 {
+  background: #7306ff;
+  transform: translateX(222.58745px) translateY(-104.74171px) scale(0.03971);
+  animation-delay: -1575ms;
+}
+
+#particle494 {
+  background: #9c0fff;
+  transform: translateX(-13.56275px) translateY(215.57377px) scale(0.09517);
+  animation-delay: -1857ms;
+}
+
+#particle495 {
+  background: #7005ff;
+  transform: translateX(-61.92378px) translateY(241.17721px) scale(0.03544);
+  animation-delay: -2395ms;
+}
+
+#particle496 {
+  background: #db1dff;
+  transform: translateX(0px) translateY(180px) scale(0.19098);
+  animation-delay: -2257ms;
+}
+
+#particle497 {
+  background: #6804ff;
+  transform: translateX(0px) translateY(258px) scale(0.02408);
+  animation-delay: -1209ms;
+}
+
+#particle498 {
+  background: #5d02ff;
+  transform: translateX(-146.28072px) translateY(230.50152px) scale(0.00998);
+  animation-delay: -1646ms;
+}
+
+#particle499 {
+  background: #860aff;
+  transform: translateX(-202.42684px) translateY(111.2851px) scale(0.06456);
+  animation-delay: -2014ms;
+}
+
+#particle500 {
+  background: #7a07ff;
+  transform: translateX(-184.92318px) translateY(152.98176px) scale(0.04894);
+  animation-delay: -169ms;
+}
+
+#particle501 {
+  background: #6102ff;
+  transform: translateX(-170.19221px) translateY(205.72704px) scale(0.01489);
+  animation-delay: -236ms;
+}
+
+#particle502 {
+  background: #860aff;
+  transform: translateX(177.98856px) translateY(147.24494px) scale(0.06456);
+  animation-delay: -1936ms;
+}
+
+#particle503 {
+  background: #860aff;
+  transform: translateX(177.98856px) translateY(-147.24494px) scale(0.06456);
+  animation-delay: -1896ms;
+}
+
+#particle504 {
+  background: #ff6461;
+  transform: translateX(55.47695px) translateY(45.89453px) scale(0.63188);
+  animation-delay: -1897ms;
+}
+
+#particle505 {
+  background: #ff4b8b;
+  transform: translateX(-49.13887px) translateY(-89.38328px) scale(0.49096);
+  animation-delay: -1147ms;
+}
+
+#particle506 {
+  background: #e11fff;
+  transform: translateX(22.18398px) translateY(-175.6043px) scale(0.20032);
+  animation-delay: -378ms;
+}
+
+#particle507 {
+  background: #6303ff;
+  transform: translateX(-65.65413px) translateY(-255.70595px) scale(0.01771);
+  animation-delay: -1665ms;
+}
+
+#particle508 {
+  background: #ffca81;
+  transform: translateX(-26.2892px) translateY(-14.45261px) scale(0.84357);
+  animation-delay: -1285ms;
+}
+
+#particle509 {
+  background: #ff5e62;
+  transform: translateX(57.78849px) translateY(-47.8068px) scale(0.61732);
+  animation-delay: -165ms;
+}
+
+#particle510 {
+  background: #e11fff;
+  transform: translateX(75.36293px) translateY(-160.15439px) scale(0.20032);
+  animation-delay: -2332ms;
+}
+
+#particle511 {
+  background: #6102ff;
+  transform: translateX(-33.46397px) translateY(264.89463px) scale(0.01489);
+  animation-delay: -856ms;
+}
+
+#particle512 {
+  background: #ff6c63;
+  transform: translateX(0px) translateY(-69px) scale(0.64653);
+  animation-delay: -1977ms;
+}
+
+#particle513 {
+  background: #6102ff;
+  transform: translateX(-143.06575px) translateY(225.43556px) scale(0.01489);
+  animation-delay: -678ms;
+}
+
+#particle514 {
+  background: #a511ff;
+  transform: translateX(-52.22488px) translateY(203.40246px) scale(0.10899);
+  animation-delay: -56ms;
+}
+
+#particle515 {
+  background: #5f02ff;
+  transform: translateX(261.51745px) translateY(67.14627px) scale(0.01231);
+  animation-delay: -1824ms;
+}
+
+#particle516 {
+  background: #5d02ff;
+  transform: translateX(220.86164px) translateY(-160.46537px) scale(0.00998);
+  animation-delay: -668ms;
+}
+
+#particle517 {
+  background: #ff2fe1;
+  transform: translateX(0px) translateY(147px) scale(0.30409);
+  animation-delay: -2424ms;
+}
+
+#particle518 {
+  background: #5d02ff;
+  transform: translateX(67.89234px) translateY(264.4232px) scale(0.00998);
+  animation-delay: -2004ms;
+}
+
+#particle519 {
+  background: #ed22ff;
+  transform: translateX(32.0422px) translateY(167.97112px) scale(0.21957);
+  animation-delay: -1978ms;
+}
+
+#particle520 {
+  background: #6102ff;
+  transform: translateX(170.19221px) translateY(205.72704px) scale(0.01489);
+  animation-delay: -1907ms;
+}
+
+#particle521 {
+  background: #930dff;
+  transform: translateX(206.41038px) translateY(81.72365px) scale(0.08225);
+  animation-delay: -2410ms;
+}
+
+#particle522 {
+  background: #5b01ff;
+  transform: translateX(-201.19534px) translateY(-188.935px) scale(0.00789);
+  animation-delay: -1365ms;
+}
+
+#particle523 {
+  background: #ff36c9;
+  transform: translateX(-86.05224px) translateY(104.01929px) scale(0.35055);
+  animation-delay: -793ms;
+}
+
+#particle524 {
+  background: #7306ff;
+  transform: translateX(-241.64266px) translateY(46.0958px) scale(0.03971);
+  animation-delay: -834ms;
+}
+
+#particle525 {
+  background: #ff29f3;
+  transform: translateX(-66.42157px) translateY(141.15302px) scale(0.27103);
+  animation-delay: -1108ms;
+}
+
+#particle526 {
+  background: #ff4796;
+  transform: translateX(-52.0294px) translateY(94.64112px) scale(0.46417);
+  animation-delay: -1476ms;
+}
+
+#particle527 {
+  background: #ff37c3;
+  transform: translateX(129.66192px) translateY(24.73433px) scale(0.36258);
+  animation-delay: -1989ms;
+}
+
+#particle528 {
+  background: #ff7465;
+  transform: translateX(-48.11193px) translateY(-45.18011px) scale(0.66126);
+  animation-delay: -1808ms;
+}
+
+#particle529 {
+  background: #6102ff;
+  transform: translateX(82.50754px) translateY(-253.93209px) scale(0.01489);
+  animation-delay: -994ms;
+}
+
+#particle530 {
+  background: #ff6461;
+  transform: translateX(71.85792px) translateY(4.52092px) scale(0.63188);
+  animation-delay: -2059ms;
+}
+
+#particle531 {
+  background: #ff3bb7;
+  transform: translateX(86.25294px) translateY(91.85005px) scale(0.38709);
+  animation-delay: -543ms;
+}
+
+#particle532 {
+  background: #ca19ff;
+  transform: translateX(152.90421px) translateY(111.09141px) scale(0.16419);
+  animation-delay: -1535ms;
+}
+
+#particle533 {
+  background: #5700ff;
+  transform: translateX(-53.96582px) translateY(-282.89873px) scale(0.00197);
+  animation-delay: -573ms;
+}
+
+#particle534 {
+  background: #7707ff;
+  transform: translateX(-130.20591px) translateY(205.17169px) scale(0.04421);
+  animation-delay: -1109ms;
+}
+
+#particle535 {
+  background: #7005ff;
+  transform: translateX(236.81307px) translateY(76.94523px) scale(0.03544);
+  animation-delay: -2095ms;
+}
+
+#particle536 {
+  background: #ff3db2;
+  transform: translateX(-59.2557px) translateY(107.78572px) scale(0.39958);
+  animation-delay: -2402ms;
+}
+
+#particle537 {
+  background: #860aff;
+  transform: translateX(-230.54417px) translateY(-14.50461px) scale(0.06456);
+  animation-delay: -263ms;
+}
+
+#particle538 {
+  background: #9c0fff;
+  transform: translateX(13.56275px) translateY(-215.57377px) scale(0.09517);
+  animation-delay: -477ms;
+}
+
+#particle539 {
+  background: #930dff;
+  transform: translateX(187.4408px) translateY(118.95355px) scale(0.08225);
+  animation-delay: -2130ms;
+}
+
+#particle540 {
+  background: #7a07ff;
+  transform: translateX(141.06846px) translateY(-194.16408px) scale(0.04894);
+  animation-delay: -230ms;
+}
+
+#particle541 {
+  background: #7a07ff;
+  transform: translateX(-128.59843px) translateY(-202.6387px) scale(0.04894);
+  animation-delay: -1633ms;
+}
+
+#particle542 {
+  background: #7e08ff;
+  transform: translateX(114.17562px) translateY(207.68468px) scale(0.05391);
+  animation-delay: -790ms;
+}
+
+#particle543 {
+  background: #7707ff;
+  transform: translateX(-154.89403px) translateY(-187.23472px) scale(0.04421);
+  animation-delay: -432ms;
+}
+
+#particle544 {
+  background: #6303ff;
+  transform: translateX(155.17531px) translateY(213.58049px) scale(0.01771);
+  animation-delay: -2449ms;
+}
+
+#particle545 {
+  background: #5b01ff;
+  transform: translateX(188.935px) translateY(-201.19534px) scale(0.00789);
+  animation-delay: -772ms;
+}
+
+#particle546 {
+  background: #a511ff;
+  transform: translateX(-190.01368px) translateY(89.41365px) scale(0.10899);
+  animation-delay: -136ms;
+}
+
+#particle547 {
+  background: #ba15ff;
+  transform: translateX(61.18536px) translateY(-188.30919px) scale(0.13926);
+  animation-delay: -788ms;
+}
+
+#particle548 {
+  background: #ff8c6c;
+  transform: translateX(41.55121px) translateY(-39.01919px) scale(0.70596);
+  animation-delay: -2329ms;
+}
+
+#particle549 {
+  background: #a010ff;
+  transform: translateX(102.61353px) translateY(186.65332px) scale(0.10197);
+  animation-delay: -1102ms;
+}
+
+#particle550 {
+  background: #d61cff;
+  transform: translateX(-174.04334px) translateY(56.55011px) scale(0.18185);
+  animation-delay: -188ms;
+}
+
+#particle551 {
+  background: #ff37c3;
+  transform: translateX(106.79024px) translateY(-77.58765px) scale(0.36258);
+  animation-delay: -15ms;
+}
+
+#particle552 {
+  background: #bf17ff;
+  transform: translateX(-12.24415px) translateY(194.61521px) scale(0.14736);
+  animation-delay: -1731ms;
+}
+
+#particle553 {
+  background: #6102ff;
+  transform: translateX(-225.43556px) translateY(143.06575px) scale(0.01489);
+  animation-delay: -1752ms;
+}
+
+#particle554 {
+  background: #7a07ff;
+  transform: translateX(-184.92318px) translateY(-152.98176px) scale(0.04894);
+  animation-delay: -1046ms;
+}
+
+#particle555 {
+  background: #ff4b8b;
+  transform: translateX(100.1933px) translateY(-19.11289px) scale(0.49096);
+  animation-delay: -757ms;
+}
+
+#particle556 {
+  background: #5a01ff;
+  transform: translateX(270.2347px) translateY(-69.38448px) scale(0.00604);
+  animation-delay: -2377ms;
+}
+
+#particle557 {
+  background: #8209ff;
+  transform: translateX(-234px) translateY(0px) scale(0.05912);
+  animation-delay: -1520ms;
+}
+
+#particle558 {
+  background: #ff43a1;
+  transform: translateX(54.91992px) translateY(99.89896px) scale(0.43792);
+  animation-delay: -1082ms;
+}
+
+#particle559 {
+  background: #bf17ff;
+  transform: translateX(-124.29768px) translateY(150.25008px) scale(0.14736);
+  animation-delay: -739ms;
+}
+
+#particle560 {
+  background: #5801ff;
+  transform: translateX(268.19794px) translateY(87.14279px) scale(0.00444);
+  animation-delay: -186ms;
+}
+
+#particle561 {
+  background: #ffd183;
+  transform: translateX(18.48277px) translateY(-19.68215px) scale(0.8591);
+  animation-delay: -1633ms;
+}
+
+#particle562 {
+  background: #5d02ff;
+  transform: translateX(273px) translateY(0px) scale(0.00998);
+  animation-delay: -1788ms;
+}
+
+#particle563 {
+  background: #ff43a1;
+  transform: translateX(113.10108px) translateY(14.28799px) scale(0.43792);
+  animation-delay: -1849ms;
+}
+
+#particle564 {
+  background: #ff2de7;
+  transform: translateX(-102.68207px) translateY(109.34529px) scale(0.29289);
+  animation-delay: -1912ms;
+}
+
+#particle565 {
+  background: #ff37c3;
+  transform: translateX(40.79024px) translateY(125.53946px) scale(0.36258);
+  animation-delay: -1085ms;
+}
+
+#particle566 {
+  background: #6d05ff;
+  transform: translateX(234.30367px) translateY(-92.76739px) scale(0.03142);
+  animation-delay: -1959ms;
+}
+
+#particle567 {
+  background: #ff30db;
+  transform: translateX(18.04799px) translateY(-142.86452px) scale(0.31545);
+  animation-delay: -1414ms;
+}
+
+#particle568 {
+  background: #5500ff;
+  transform: translateX(-172.80886px) translateY(237.851px) scale(0.00049);
+  animation-delay: -2135ms;
+}
+
+#particle569 {
+  background: #860aff;
+  transform: translateX(202.42684px) translateY(111.2851px) scale(0.06456);
+  animation-delay: -441ms;
+}
+
+#particle570 {
+  background: #5500ff;
+  transform: translateX(-276.14362px) translateY(109.33299px) scale(0.00012);
+  animation-delay: -1733ms;
+}
+
+#particle571 {
+  background: #8a0bff;
+  transform: translateX(192.50677px) translateY(122.16851px) scale(0.07022);
+  animation-delay: -1465ms;
+}
+
+#particle572 {
+  background: #5700ff;
+  transform: translateX(230.56984px) translateY(167.5188px) scale(0.00308);
+  animation-delay: -176ms;
+}
+
+#particle573 {
+  background: #5801ff;
+  transform: translateX(-70.13055px) translateY(273.14045px) scale(0.00444);
+  animation-delay: -1567ms;
+}
+
+#particle574 {
+  background: #af13ff;
+  transform: translateX(194.01553px) translateY(-63.03947px) scale(0.12369);
+  animation-delay: -1428ms;
+}
+
+#particle575 {
+  background: #5a01ff;
+  transform: translateX(69.38448px) translateY(-270.2347px) scale(0.00604);
+  animation-delay: -637ms;
+}
+
+#particle576 {
+  background: #6a04ff;
+  transform: translateX(-122.84719px) translateY(223.4582px) scale(0.02763);
+  animation-delay: -1078ms;
+}
+
+#particle577 {
+  background: #5f02ff;
+  transform: translateX(50.59295px) translateY(265.21756px) scale(0.01231);
+  animation-delay: -2372ms;
+}
+
+#particle578 {
+  background: #930dff;
+  transform: translateX(-221.56193px) translateY(13.9395px) scale(0.08225);
+  animation-delay: -1467ms;
+}
+
+#particle579 {
+  background: #6102ff;
+  transform: translateX(262.2707px) translateY(50.03081px) scale(0.01489);
+  animation-delay: -379ms;
+}
+
+#particle580 {
+  background: #7005ff;
+  transform: translateX(201.44523px) translateY(-146.35853px) scale(0.03544);
+  animation-delay: -2439ms;
+}
+
+#particle581 {
+  background: #5500ff;
+  transform: translateX(-285.31695px) translateY(92.7051px) scale(0);
+  animation-delay: -1788ms;
+}
+
+#particle582 {
+  background: #b514ff;
+  transform: translateX(199.41505px) translateY(25.19198px) scale(0.13137);
+  animation-delay: -925ms;
+}
+
+#particle583 {
+  background: #e720ff;
+  transform: translateX(-21.80798px) translateY(-172.62796px) scale(0.20984);
+  animation-delay: -1303ms;
+}
+
+#particle584 {
+  background: #db1dff;
+  transform: translateX(-162.86887px) translateY(76.64027px) scale(0.19098);
+  animation-delay: -526ms;
+}
+
+#particle585 {
+  background: #5500ff;
+  transform: translateX(159.14056px) translateY(250.76539px) scale(0.00012);
+  animation-delay: -300ms;
+}
+
+#particle586 {
+  background: #a511ff;
+  transform: translateX(-209.58561px) translateY(13.18601px) scale(0.10899);
+  animation-delay: -1431ms;
+}
+
+#particle587 {
+  background: #ff30db;
+  transform: translateX(136.95214px) translateY(-44.49845px) scale(0.31545);
+  animation-delay: -1725ms;
+}
+
+#particle588 {
+  background: #8e0cff;
+  transform: translateX(164.01794px) translateY(154.0231px) scale(0.07612);
+  animation-delay: -709ms;
+}
+
+#particle589 {
+  background: #ff41a6;
+  transform: translateX(-108.78385px) translateY(-43.07057px) scale(0.42499);
+  animation-delay: -1315ms;
+}
+
+#particle590 {
+  background: #8a0bff;
+  transform: translateX(42.72294px) translateY(-223.96149px) scale(0.07022);
+  animation-delay: -1263ms;
+}
+
+#particle591 {
+  background: #ff586e;
+  transform: translateX(-25.95743px) translateY(79.88875px) scale(0.57422);
+  animation-delay: -1517ms;
+}
+
+#particle592 {
+  background: #ff39bd;
+  transform: translateX(-104.36319px) translateY(-75.8243px) scale(0.37476);
+  animation-delay: -2464ms;
+}
+
+#particle593 {
+  background: #5a01ff;
+  transform: translateX(102.70675px) translateY(259.40764px) scale(0.00604);
+  animation-delay: -2179ms;
+}
+
+#particle594 {
+  background: #5500ff;
+  transform: translateX(73.8609px) translateY(-287.6692px) scale(0.00012);
+  animation-delay: -527ms;
+}
+
+#particle595 {
+  background: #d61cff;
+  transform: translateX(-165.58335px) translateY(-77.91761px) scale(0.18185);
+  animation-delay: -1700ms;
+}
+
+#particle596 {
+  background: #930dff;
+  transform: translateX(218.06777px) translateY(41.59865px) scale(0.08225);
+  animation-delay: -2424ms;
+}
+
+#particle597 {
+  background: #9c0fff;
+  transform: translateX(-216px) translateY(0px) scale(0.09517);
+  animation-delay: -1815ms;
+}
+
+#particle598 {
+  background: #5d02ff;
+  transform: translateX(272.4613px) translateY(17.14181px) scale(0.00998);
+  animation-delay: -1809ms;
+}
+
+#particle599 {
+  background: #7e08ff;
+  transform: translateX(-29.70398px) translateY(-235.13118px) scale(0.05391);
+  animation-delay: -873ms;
+}
+
+#particle600 {
+  background: #970eff;
+  transform: translateX(218.56785px) translateY(-13.75112px) scale(0.0886);
+  animation-delay: -561ms;
+}
+
+@keyframes doit {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(0.1);
+  }
+}
