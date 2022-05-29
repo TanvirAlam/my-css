@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 106 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 107 CSS Artistry</span>
+
+- [animated-3d-text-typography-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-3d-text-typography-effects)<br>
+  ![images/Peek_2022-05-29_14-29.gif](images/Peek_2022-05-29_14-29.gif)
 
 - [monalisa-css-effects](https://github.com/TanvirAlam/my-css/tree/main/monalisa-css-effects)<br>
   ![images/Peek_2022-05-29_14-22.gif](images/Peek_2022-05-29_14-22.gif)
