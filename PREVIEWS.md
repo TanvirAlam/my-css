@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 103 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 104 CSS Artistry</span>
+
+- [iphone6-css-effects](https://github.com/TanvirAlam/my-css/tree/main/iphone6-css-effects)<br>
+  ![images/Peek_2022-05-29_14-07.gif](images/Peek_2022-05-29_14-07.gif)
 
 - [animated-directional-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-directional-hover-effects)<br>
   ![images/Peek_2022-05-29_14-02.gif](images/Peek_2022-05-29_14-02.gif)
