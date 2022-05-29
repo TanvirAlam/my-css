@@ -2,6 +2,9 @@
 
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 100 CSS Artistry</span>
 
+- [animated-calender-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-calender-effects)<br>
+  ![images/Peek_2022-05-29_13-47.gif](images/Peek_2022-05-29_13-47.gif)
+
 - [animated-macbook-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-macbook-effects)<br>
   ![images/Peek_2022-05-28_23-02.gif](images/Peek_2022-05-28_23-02.gif)
 

@@ -1,0 +1,850 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html,
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  background-color: #4075b7;
+  width: 100%;
+  height: 100%;
+  counter-reset: previous-month 29 current-month next-month;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside,
+main {
+  width: 50%;
+  height: 816px;
+  float: left;
+  padding: 0 2rem;
+  margin: 2rem 0;
+}
+
+header {
+  color: white;
+}
+
+.header-bar {
+  height: 1rem;
+}
+
+.header-title {
+  padding: 1rem;
+}
+.header-title h1 {
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.header-weekdays {
+  height: 2rem;
+}
+.header-weekdays span {
+  font-size: 0.8rem;
+  display: block;
+  float: left;
+  width: 14.28571%;
+  padding: 0.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.calendar:before, .calendar:after {
+  content: " ";
+  display: table;
+}
+.calendar:after {
+  clear: both;
+}
+.calendar.inactive {
+  pointer-events: none;
+}
+
+form {
+  background: rgba(88, 178, 164, 0.9);
+}
+form:before, form:after {
+  content: " ";
+  display: table;
+}
+form:after {
+  clear: both;
+}
+
+.month {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.day {
+  float: left;
+  width: 14.28571%;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  outline: none;
+  transition-property: background, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.device:not(:hover) .day {
+  transition-duration: 0;
+}
+.day:after {
+  display: block;
+  transition-property: transform, opacity;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
+.day.current-month:after {
+  content: counter(current-month);
+  counter-increment: current-month;
+}
+.day.next-month:after {
+  content: counter(next-month);
+  counter-increment: next-month;
+}
+.day.previous-month:after {
+  content: counter(previous-month);
+  counter-increment: previous-month;
+}
+.day.previous-month, .day.next-month {
+  color: rgba(51, 51, 51, 0.3);
+}
+.day:last-of-type:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 700%;
+  height: 100%;
+  background: white;
+}
+.day:checked, .day:checked ~ .day {
+  color: white;
+}
+.day:checked ~ .day {
+  background-color: transparent;
+}
+.day:hover, .day:checked, .day ~ .day:hover, .day ~ .day:checked {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.day, .day:checked ~ .day:checked ~ .day, .day:checked ~ .day:hover ~ .day, .day:checked:hover ~ .day {
+  background-color: white;
+  color: #333;
+}
+.day.next-month, .day:checked ~ .day:checked ~ .day.next-month, .day:checked ~ .day:hover ~ .day.next-month, .day:checked:hover ~ .day.next-month {
+  color: rgba(51, 51, 51, 0.3);
+}
+.day:nth-child(7n + 1):after {
+  transition-delay: 0s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.day:nth-child(7n + 2):after {
+  transition-delay: 0.08571s;
+  -webkit-animation-delay: 0.08571s;
+          animation-delay: 0.08571s;
+}
+.day:nth-child(7n + 3):after {
+  transition-delay: 0.17143s;
+  -webkit-animation-delay: 0.17143s;
+          animation-delay: 0.17143s;
+}
+.day:nth-child(7n + 4):after {
+  transition-delay: 0.25714s;
+  -webkit-animation-delay: 0.25714s;
+          animation-delay: 0.25714s;
+}
+.day:nth-child(7n + 5):after {
+  transition-delay: 0.34286s;
+  -webkit-animation-delay: 0.34286s;
+          animation-delay: 0.34286s;
+}
+.day:nth-child(7n + 6):after {
+  transition-delay: 0.42857s;
+  -webkit-animation-delay: 0.42857s;
+          animation-delay: 0.42857s;
+}
+.day:nth-child(7n + 7):after {
+  transition-delay: 0.51429s;
+  -webkit-animation-delay: 0.51429s;
+          animation-delay: 0.51429s;
+}
+
+.calendar-label-bg {
+  display: block;
+  position: absolute;
+  outline: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15rem;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  transform: translateX(-100%);
+  -webkit-animation: bg-inactive 1s cubic-bezier(0.77, 0, 0.175, 1);
+          animation: bg-inactive 1s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.calendar-label-bg:checked {
+  -webkit-animation: bg-active 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+          animation: bg-active 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+.calendar-label-bg:checked ~ .calendar .day:checked:after, .calendar-label-bg:checked ~ .calendar .day:checked ~ .day:after {
+  -webkit-animation-name: day-active;
+          animation-name: day-active;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+          animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+}
+.calendar-label-bg:checked ~ .calendar .day:checked ~ .day:checked ~ .day:after {
+  -webkit-animation: none;
+          animation: none;
+}
+
+#vacation {
+  background-color: #d3738b;
+}
+
+#vacation:checked ~ .calendar .day:nth-child(7n + 1) {
+  z-index: 70;
+}
+#vacation:checked ~ .calendar .day:nth-child(7n + 2) {
+  z-index: 60;
+}
+#vacation:checked ~ .calendar .day:nth-child(7n + 3) {
+  z-index: 50;
+}
+#vacation:checked ~ .calendar .day:nth-child(7n + 4) {
+  z-index: 40;
+}
+#vacation:checked ~ .calendar .day:nth-child(7n + 5) {
+  z-index: 30;
+}
+#vacation:checked ~ .calendar .day:nth-child(7n + 6) {
+  z-index: 20;
+}
+#vacation:checked ~ .calendar .day:nth-child(7n + 7) {
+  z-index: 10;
+}
+#vacation:checked ~ .calendar .calendar-labels label[for="vacation"]:not(.full):before {
+  visibility: visible;
+  -webkit-animation: check-active 0.1s 0.2s ease-out both;
+          animation: check-active 0.1s 0.2s ease-out both;
+}
+#vacation:checked ~ .calendar .calendar-labels label[for="vacation"].full input {
+  font-weight: 700;
+}
+#vacation:checked ~ .calendar .calendar-labels label[for="vacation"].full:before {
+  color: white;
+  border-color: white;
+}
+#vacation:checked ~ .calendar .calendar-labels label[for="vacation"] > span {
+  transform: translateX(2rem);
+}
+
+#fishing {
+  background-color: #8f658a;
+}
+
+#fishing:checked ~ .calendar .day:nth-child(7n + 1) {
+  z-index: 70;
+}
+#fishing:checked ~ .calendar .day:nth-child(7n + 2) {
+  z-index: 60;
+}
+#fishing:checked ~ .calendar .day:nth-child(7n + 3) {
+  z-index: 50;
+}
+#fishing:checked ~ .calendar .day:nth-child(7n + 4) {
+  z-index: 40;
+}
+#fishing:checked ~ .calendar .day:nth-child(7n + 5) {
+  z-index: 30;
+}
+#fishing:checked ~ .calendar .day:nth-child(7n + 6) {
+  z-index: 20;
+}
+#fishing:checked ~ .calendar .day:nth-child(7n + 7) {
+  z-index: 10;
+}
+#fishing:checked ~ .calendar .calendar-labels label[for="fishing"]:not(.full):before {
+  visibility: visible;
+  -webkit-animation: check-active 0.1s 0.2s ease-out both;
+          animation: check-active 0.1s 0.2s ease-out both;
+}
+#fishing:checked ~ .calendar .calendar-labels label[for="fishing"].full input {
+  font-weight: 700;
+}
+#fishing:checked ~ .calendar .calendar-labels label[for="fishing"].full:before {
+  color: white;
+  border-color: white;
+}
+#fishing:checked ~ .calendar .calendar-labels label[for="fishing"] > span {
+  transform: translateX(2rem);
+}
+
+#walk {
+  background-color: #7186db;
+}
+
+#walk:checked ~ .calendar .day:nth-child(7n + 1) {
+  z-index: 70;
+}
+#walk:checked ~ .calendar .day:nth-child(7n + 2) {
+  z-index: 60;
+}
+#walk:checked ~ .calendar .day:nth-child(7n + 3) {
+  z-index: 50;
+}
+#walk:checked ~ .calendar .day:nth-child(7n + 4) {
+  z-index: 40;
+}
+#walk:checked ~ .calendar .day:nth-child(7n + 5) {
+  z-index: 30;
+}
+#walk:checked ~ .calendar .day:nth-child(7n + 6) {
+  z-index: 20;
+}
+#walk:checked ~ .calendar .day:nth-child(7n + 7) {
+  z-index: 10;
+}
+#walk:checked ~ .calendar .calendar-labels label[for="walk"]:not(.full):before {
+  visibility: visible;
+  -webkit-animation: check-active 0.1s 0.2s ease-out both;
+          animation: check-active 0.1s 0.2s ease-out both;
+}
+#walk:checked ~ .calendar .calendar-labels label[for="walk"].full input {
+  font-weight: 700;
+}
+#walk:checked ~ .calendar .calendar-labels label[for="walk"].full:before {
+  color: white;
+  border-color: white;
+}
+#walk:checked ~ .calendar .calendar-labels label[for="walk"] > span {
+  transform: translateX(2rem);
+}
+
+#weekend {
+  background-color: #f7c187;
+}
+
+#weekend:checked ~ .calendar .day:nth-child(7n + 1) {
+  z-index: 70;
+}
+#weekend:checked ~ .calendar .day:nth-child(7n + 2) {
+  z-index: 60;
+}
+#weekend:checked ~ .calendar .day:nth-child(7n + 3) {
+  z-index: 50;
+}
+#weekend:checked ~ .calendar .day:nth-child(7n + 4) {
+  z-index: 40;
+}
+#weekend:checked ~ .calendar .day:nth-child(7n + 5) {
+  z-index: 30;
+}
+#weekend:checked ~ .calendar .day:nth-child(7n + 6) {
+  z-index: 20;
+}
+#weekend:checked ~ .calendar .day:nth-child(7n + 7) {
+  z-index: 10;
+}
+#weekend:checked ~ .calendar .calendar-labels label[for="weekend"]:not(.full):before {
+  visibility: visible;
+  -webkit-animation: check-active 0.1s 0.2s ease-out both;
+          animation: check-active 0.1s 0.2s ease-out both;
+}
+#weekend:checked ~ .calendar .calendar-labels label[for="weekend"].full input {
+  font-weight: 700;
+}
+#weekend:checked ~ .calendar .calendar-labels label[for="weekend"].full:before {
+  color: white;
+  border-color: white;
+}
+#weekend:checked ~ .calendar .calendar-labels label[for="weekend"] > span {
+  transform: translateX(2rem);
+}
+
+#new {
+  background-color: #58b2a4;
+}
+
+#new:checked ~ .calendar .day:nth-child(7n + 1) {
+  z-index: 70;
+}
+#new:checked ~ .calendar .day:nth-child(7n + 2) {
+  z-index: 60;
+}
+#new:checked ~ .calendar .day:nth-child(7n + 3) {
+  z-index: 50;
+}
+#new:checked ~ .calendar .day:nth-child(7n + 4) {
+  z-index: 40;
+}
+#new:checked ~ .calendar .day:nth-child(7n + 5) {
+  z-index: 30;
+}
+#new:checked ~ .calendar .day:nth-child(7n + 6) {
+  z-index: 20;
+}
+#new:checked ~ .calendar .day:nth-child(7n + 7) {
+  z-index: 10;
+}
+#new:checked ~ .calendar .calendar-labels label[for="new"]:not(.full):before {
+  visibility: visible;
+  -webkit-animation: check-active 0.1s 0.2s ease-out both;
+          animation: check-active 0.1s 0.2s ease-out both;
+}
+#new:checked ~ .calendar .calendar-labels label[for="new"].full input {
+  font-weight: 700;
+}
+#new:checked ~ .calendar .calendar-labels label[for="new"].full:before {
+  color: white;
+  border-color: white;
+}
+#new:checked ~ .calendar .calendar-labels label[for="new"] > span {
+  transform: translateX(2rem);
+}
+
+.calendar-labels {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  pointer-events: none;
+  transition: all 0s ease-in-out;
+  transition-delay: 1s;
+  transform: translateY(0);
+  opacity: 0;
+}
+.device:hover .calendar-labels {
+  display: block;
+}
+.calendar-labels:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  height: 15rem;
+  width: 100%;
+  pointer-events: auto;
+}
+.calendar-labels > label {
+  display: block;
+  float: left;
+  width: 57.14286%;
+  font-size: 1rem;
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+          animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.calendar-labels > label:before {
+  display: block;
+  position: absolute;
+  left: 0.75rem;
+  height: 1rem;
+  visibility: hidden;
+}
+.calendar-labels > label.full {
+  width: 100%;
+  font-weight: 700;
+}
+.calendar-labels > label.full:before {
+  transition-property: color, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  content: "+";
+  top: calc(50% - 0.75rem);
+  font-size: 1rem;
+  font-weight: 700;
+  width: 1rem;
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  text-align: center;
+  visibility: visible;
+}
+.calendar-labels > label.full > input {
+  display: block;
+  margin-left: 2rem;
+  width: calc(100% - 2rem);
+  font-size: 1rem;
+  background-image: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  line-height: 1;
+  padding: 0;
+}
+.calendar-labels > label.full > input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.calendar-labels > label.full > input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.calendar-labels > label.full > input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.calendar-labels > label.reset {
+  width: 100%;
+  background: white;
+  float: left;
+  padding: 0;
+  height: 3rem;
+}
+.calendar-labels > label.reset > input {
+  display: block;
+  padding: 1rem;
+  line-height: 1;
+  font-size: 0.8rem;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  border: none;
+  background: transparent;
+  outline: none;
+  text-transform: uppercase;
+  color: rgba(51, 51, 51, 0.3);
+  letter-spacing: 3px;
+}
+.calendar-labels > label:not(.full):before {
+  content: "";
+  top: 50%;
+  width: 0.5rem;
+  transform: scaleX(-1) rotate(135deg);
+  transform-origin: left top;
+  border-right: 5px solid rgba(255, 255, 255, 0.7);
+  border-top: 5px solid rgba(255, 255, 255, 0.7);
+  -webkit-animation: check-inactive 0.3s 0 cubic-bezier(0.77, 0, 0.175, 1) both;
+          animation: check-inactive 0.3s 0 cubic-bezier(0.77, 0, 0.175, 1) both;
+}
+.calendar-labels > label > * {
+  transition: transform 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+  display: inline-block;
+}
+.calendar-labels > label[for="vacation"] {
+  background: #d3738b;
+}
+.calendar-labels > label[for="fishing"] {
+  background: #8f658a;
+}
+.calendar-labels > label[for="walk"] {
+  background: #7186db;
+}
+.calendar-labels > label[for="weekend"] {
+  background: #f7c187;
+}
+.calendar-labels > label[for="new"] {
+  background: #58b2a4;
+}
+.calendar-labels > label:nth-child(n + 2):nth-child(-n + 3) {
+  width: 42.85714%;
+}
+.calendar-labels > label:nth-child(2n - 1) {
+  z-index: 20;
+  -webkit-animation-name: leftLabel-inactive;
+          animation-name: leftLabel-inactive;
+}
+.calendar-labels > label:nth-child(2n) {
+  z-index: 10;
+  -webkit-animation-name: rightLabel-inactive;
+          animation-name: rightLabel-inactive;
+}
+
+.day:checked ~ .day:checked ~ .calendar-labels {
+  transition-delay: 0s;
+  display: block;
+  opacity: 1;
+}
+.day:checked ~ .day:checked:nth-child(n + 1):nth-child(-n + 7) ~ .calendar-labels {
+  transform: translateY(3rem);
+  pointer-events: auto;
+}
+.day:checked ~ .day:checked:nth-child(n + 8):nth-child(-n + 14) ~ .calendar-labels {
+  transform: translateY(6rem);
+  pointer-events: auto;
+}
+.day:checked ~ .day:checked:nth-child(n + 15):nth-child(-n + 21) ~ .calendar-labels {
+  transform: translateY(9rem);
+  pointer-events: auto;
+}
+.day:checked ~ .day:checked:nth-child(n + 22):nth-child(-n + 28) ~ .calendar-labels {
+  transform: translateY(12rem);
+  pointer-events: auto;
+}
+.day:checked ~ .day:checked:nth-child(n + 29):nth-child(-n + 35) ~ .calendar-labels {
+  transform: translateY(15rem);
+  pointer-events: auto;
+}
+.day:checked ~ .day:checked ~ .day:nth-child(7n) ~ .day:after, .day:checked ~ .day:checked:nth-child(7n) ~ .day:after {
+  transform: translateY(15rem);
+  opacity: 0;
+}
+.day:checked ~ .day:checked ~ .calendar-labels label:nth-child(2n - 1) {
+  z-index: 20;
+  -webkit-animation: leftLabel-active 1s cubic-bezier(0.77, 0, 0.175, 1) both;
+          animation: leftLabel-active 1s cubic-bezier(0.77, 0, 0.175, 1) both;
+}
+.day:checked ~ .day:checked ~ .calendar-labels label:nth-child(2n) {
+  z-index: 10;
+  -webkit-animation: rightLabel-active 1s cubic-bezier(0.77, 0, 0.175, 1) both;
+          animation: rightLabel-active 1s cubic-bezier(0.77, 0, 0.175, 1) both;
+}
+
+@-webkit-keyframes check-active {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    width: 0.5rem;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes check-active {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    width: 0.5rem;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes check-inactive {
+  50% {
+    opacity: 1;
+    width: 0.5rem;
+    height: 0;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+}
+@keyframes check-inactive {
+  50% {
+    opacity: 1;
+    width: 0.5rem;
+    height: 0;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes labels-inactive {
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes labels-inactive {
+  to {
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes leftLabel-active {
+  from {
+    transform: translateX(-100%);
+  }
+}
+@keyframes leftLabel-active {
+  from {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes leftLabel-inactive {
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes leftLabel-inactive {
+  to {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes rightLabel-active {
+  from {
+    transform: translateX(-300%);
+  }
+}
+@keyframes rightLabel-active {
+  from {
+    transform: translateX(-300%);
+  }
+}
+@-webkit-keyframes rightLabel-inactive {
+  to {
+    transform: translateX(-300%);
+  }
+}
+@keyframes rightLabel-inactive {
+  to {
+    transform: translateX(-300%);
+  }
+}
+@-webkit-keyframes bg-active {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes bg-active {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes bg-inactive {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes bg-inactive {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@-webkit-keyframes day-active {
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes day-active {
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.meta {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+.meta p,
+.meta a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.meta h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: white;
+}
+.meta p {
+  line-height: 1.4;
+}
+.meta a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.device {
+  position: absolute;
+  right: 2rem;
+  height: 816px;
+  width: 396px;
+  padding: 90px 10px;
+  border: 5px solid white;
+  border-radius: 60px;
+  background-color: #dcdfe6;
+  box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.1);
+}
+.device:before, .device:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+}
+.device:before {
+  width: 20%;
+  height: 10px;
+  top: 40px;
+  left: 40%;
+  border-radius: 10px;
+  background-color: #a1a5b3;
+}
+.device:after {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 5px #bdc0ca;
+  left: calc(50% - 25px);
+  bottom: 15px;
+}
+.device header {
+  height: 6rem;
+  background-color: #58b2a4;
+}
+.device section {
+  height: calc(100% - 6rem);
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
