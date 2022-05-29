@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+/* The magic */
+.col {
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* 
+    Visibility delay gives the previously hovered element time to slide out before disappearing.
+    Remove the `visibility` transition to slide in current element without sliding out previous element
+  */
+  transition: all 0.275s ease-in-out, visibility 0s 0.275s;
+  visibility: hidden;
+  will-change: transform;
+  transform: translateY(100%);
+}
+
+.row:hover ~ .row .slide {
+  transform: translateY(-100%);
+}
+.row:hover .slide {
+  transform: translateX(100%);
+}
+.row:hover .col:hover ~ .col .slide {
+  transform: translateX(-100%);
+}
+.row:hover .col:hover .slide {
+  transform: none;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+/* Pen styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefefe;
+  color: #333;
+  font: 14px/1.5 "Fira Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 1.5em 0.5rem 1em;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  color: #fff;
+  flex: 1 1 auto;
+  min-height: 260px;
+  position: relative;
+}
+.col h2 {
+  font-weight: 300;
+  font-size: 1.33333rem;
+  line-height: 1.25;
+  margin: 0;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 0;
+}
+
+.col:nth-child(2) {
+  min-width: 20%;
+}
+
+.col:nth-child(4) {
+  min-width: 33%;
+}
+
+.col:nth-child(3) + .col:nth-child(3) {
+  min-width: 50%;
+}
+
+.photo-container {
+  background: #0f0523 50% 50%/cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 1s;
+  transform-origin: bottom right;
+}
+.photo-container::before {
+  background: linear-gradient(transparent, rgba(67, 17, 51, 0.5), #000320);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.col:hover .photo-container {
+  transform: scale(1.25);
+}
+
+.slide {
+  background: rgba(25, 1, 21, 0.8);
+  padding: 0 1.5rem;
+}

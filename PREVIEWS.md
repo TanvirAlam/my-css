@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 102 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 103 CSS Artistry</span>
+
+- [animated-directional-hover-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-directional-hover-effects)<br>
+  ![images/Peek_2022-05-29_14-02.gif](images/Peek_2022-05-29_14-02.gif)
 
 - [animated-solar-system-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-solar-system-effects)<br>
   ![images/Peek_2022-05-29_13-53.gif](images/Peek_2022-05-29_13-53.gif)
