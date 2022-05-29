@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 109 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 110 CSS Artistry</span>
+
+- [animated-newtons-cradle-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-newtons-cradle-effects)<br>
+  ![images/Peek_2022-05-29_20-29.gif](images/Peek_2022-05-29_20-29.gif)
 
 - [animated-bobble-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-bobble-effects)<br>
   ![images/Peek_2022-05-29_16-16.gif](images/Peek_2022-05-29_16-16.gif)
