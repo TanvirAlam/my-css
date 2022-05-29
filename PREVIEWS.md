@@ -1,7 +1,10 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 104 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 105 CSS Artistry</span>
 
+- [animated-cube-slider-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-cube-slider-effects)<br>
+  ![images/Peek_2022-05-29_14-13.gif](images/Peek_2022-05-29_14-13.gif)
+  
 - [iphone6-css-effects](https://github.com/TanvirAlam/my-css/tree/main/iphone6-css-effects)<br>
   ![images/Peek_2022-05-29_14-07.gif](images/Peek_2022-05-29_14-07.gif)
 
