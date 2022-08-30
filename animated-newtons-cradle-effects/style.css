@@ -40,8 +40,8 @@ body {
   width: 20em;
   height: 20em;
   background-color: #fff;
-  background-image: radial-gradient(#012a, #111 66%), url("https://assets.codepen.io/1948355/marble01.jpg");
-  background-size: 20em, 10em;
+  background-image: radial-gradient(#012a, #111 66%), url("mosaic.jpeg");
+  background-size: cover;
   transform: translate(-50%, -50%) rotateX(90deg) translateZ(-3em);
 }
 .floor::after {
