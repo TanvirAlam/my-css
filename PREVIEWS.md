@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 111 CSS Artistry</span>
+
+- [animated-navigation-tabs-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-navigation-tabs-menu-effects)<br>
+  ![images/Aug-30-2022_14-34-54.gif](images/Aug-30-2022_14-34-54.gif)
   
 - [animated-water-drop-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-water-drop-effects)<br>
   ![images/Aug-30-2022_13-23-24.gif](images/Aug-30-2022_13-23-24.gif)
