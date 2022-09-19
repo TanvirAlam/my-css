@@ -1,6 +1,9 @@
 ## This is my collection of ideas
 
-<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 112 CSS Artistry</span>
+<span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 113 CSS Artistry</span>
+
+- [animated-login-form-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-login-form-effects)<br>
+  ![images/Peek_2022-09-19_12-45.gif](images/Peek_2022-09-19_12-45.gif)
 
 - [animated-navigation-tabs-menu-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-navigation-tabs-menu-effects)<br>
   ![images/Aug-30-2022_14-34-54.gif](images/Aug-30-2022_14-34-54.gif)
