@@ -2,6 +2,9 @@
 
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 113 CSS Artistry</span>
 
+- [animated-search-box-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-search-box-effects)<br>
+  ![images/Peek_2022-09-23_21-11.gif](images/Peek_2022-09-23_21-11.gif)
+
 - [animated-login-form-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-login-form-effects)<br>
   ![images/Peek_2022-09-19_12-45.gif](images/Peek_2022-09-19_12-45.gif)
 
