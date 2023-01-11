@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: #eff0f4;
+}
+
+.container {
+  position: relative;
+  left: -100px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container .drop {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  box-shadow: inset 20px 20px 20px rgba(0,0,0,0.05),
+              25px 35px 20px rgba(0,0,0,0.05),
+              25px 30px 30px rgba(0,0,0,0.05),
+              inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+  transition: 0.5s;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 42% 58% 35% 65% / 40% 45% 55% 60%;
+}
+
+.container .drop:hover {
+  border-radius: 50%;
+}
+
+.container .drop::before {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 85px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.7;
+  border-radius: 38% 62% 58% 42% / 47% 55% 45% 53%;
+}
+
+.container .drop::after {
+  content: '';
+  position: absolute;
+  top: 90px;
+  left: 110px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.7;
+  border-radius: 38% 62% 58% 42% / 47% 55% 45% 53%;
+}
+
+.container .drop .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.container .drop .content .logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0
+}
+
+.container .drop .content .logo img {
+  width: 80%;
+}
+
+.container .drop .content form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .drop .content form .inputBox {
+  position: relative;
+  width: 225px;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.1),
+              inset -2px -5px 10px rgba(255, 255, 255,1),
+              15px 15px 10px rgba(0,0,0,0.05),
+              15px 10px 15px rgba(0,0,0,0.025);
+  border-radius: 25px;
+}
+
+.container .drop .content form .inputBox::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+  height: 5px;
+  background: rgba(255, 255, 255,0.5);
+  border-radius: 5px;
+}
+
+.container .drop .content form .inputBox input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 1em;
+  padding: 10px 15px;
+}
+
+.container .drop .content form  .inputBox input[type="submit"] {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
+.container .drop .content form .inputBox:last-child {
+  width: 120px;
+  background: #0068B1;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.1),
+              inset -2px -5px 10px rgba(255, 255, 255,1),
+              15px 15px 10px rgba(0,0,0,0.05),
+              15px 10px 15px rgba(0,0,0,0.025);
+  transition: 0.5s;
+}
+
+.container .drop .content form .inputBox:last-child:hover {
+  width: 150px;
+}
+
+.btns {
+  position: absolute;
+  right: -120px;
+  bottom: 0;
+  width: 120px;
+  height: 120px;
+  background: #E16525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.2em;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  transition: 0.25s;
+  text-align: center;
+  box-shadow: inset 10px 10px 10px rgba(254, 1, 56, 0.185),
+              5px 10px 5px rgba(254, 1, 56, 0.185),
+              5px 10px 5px rgba(254, 1, 56, 0.185),
+              inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+  border-radius: 42% 58% 44% 56% / 50% 69% 31% 50%;
+}
+
+.btns::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.45;
+}
+
+.btns.signup {
+  width: 80px;
+  height: 80px;
+  bottom: 150px;
+  right: -120px;
+  border-radius: 72% 28% 49% 51% / 50% 44% 56% 50%;
+  background: #43AA4C;
+  box-shadow: inset 10px 10px 10px rgba(1, 255, 35, 0.05),
+              5px 10px 5px rgba(1, 255, 35, 0.05),
+              5px 10px 5px rgba(1, 255, 35, 0.05),
+              inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+}
+
+.btns:hover {
+  border-radius: 50%;
+}
+
+.container .drop .facebookBtn {
+  position: absolute;
+  left: 250px;
+  top: 250px;
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
+  display: flex;
+}
+
+.container .drop .facebookBtn img {
+  width: 100px;
+}
+
+.container .drop .facebookBtn:hover {
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}

@@ -2,6 +2,9 @@
 
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 113 CSS Artistry</span>
 
+- [animated-liquid-form](https://github.com/TanvirAlam/my-css/tree/main/animated-liquid-form)<br>
+  ![images/sample-login-form.gif](images/sample-login-form.gif)
+
 - [responsive-navigation-menu](https://github.com/TanvirAlam/my-css/tree/main/responsive-navigation-menu)<br>
   ![images/Peek_2022-10-05_00-37.gif](images/Peek_2022-10-05_00-37.gif)
 
