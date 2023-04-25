@@ -2,6 +2,9 @@
 
 <span style="color:red;font-size:2rem;font-weight:700;">TOTAL: 113 CSS Artistry</span>
 
+- [animated-spin-wheel-effects](https://github.com/TanvirAlam/my-css/tree/main/animated-spin-wheel-effects)<br>
+  ![images/animated-spin-wheel-effects.gif](images/animated-spin-wheel-effects.gif)
+
 - [animated-liquid-form](https://github.com/TanvirAlam/my-css/tree/main/animated-liquid-form)<br>
   ![images/sample-login-form.gif](images/sample-login-form.gif)
 
