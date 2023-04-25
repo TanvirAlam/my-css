@@ -92,6 +92,11 @@ body {
   text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.15);
 }
 
+.container .wheel .number img {
+  position: absolute;
+  width: 50%;
+  transform: rotate(130deg);
+}
 .container .wheel .number span::after {
   content: '৳';
   position: absolute;

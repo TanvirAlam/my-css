@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Custom Bottle</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const renderer = new THREE.WebGLRenderer({ canvas });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+  
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100);
+        camera.position.set(0, 0, 5);
+  
+        const scene = new THREE.Scene();
+  
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        scene.add(ambientLight);
+  
+        const pointLight = new THREE.PointLight(0xffffff, 1);
+        pointLight.position.set(0, 0, 5);
+        camera.add(pointLight);
+        scene.add(camera);
+  
+        const bottleGeometry = new THREE.CylinderGeometry(1, 1, 2, 32);
+        const bottleMaterial = new THREE.MeshStandardMaterial({
+          color: 0xff0000,
+          metalness: 0.5,
+          roughness: 0.5,
+        });
+        const bottle = new THREE.Mesh(bottleGeometry, bottleMaterial);
+        scene.add(bottle);
+  
+        const controls = new THREE.OrbitControls(camera, canvas);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.05;
+  
+        function animate() {
+          requestAnimationFrame(animate);
+          controls.update();
+          renderer.render(scene, camera);
+        }
+  
+        animate();
+      </script>
+    </body>
+  </html>
+  </body>
+</html>
